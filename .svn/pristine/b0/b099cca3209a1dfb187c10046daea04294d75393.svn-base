@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my_css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/jquery.Jcrop.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.Jcrop.min.js"></script>
+
+
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid index_top p0">
+        <div class="container">
+            <div class="col-md-6 col-sm-6 p0">
+                <a href="#" class="ben_city">福州</a>&nbsp;
+                <span>[切换城市 <a href="#">莆田</a> <a href="#">莆田</a>]</span>
+            </div>
+            <div class="col-md-6 col-sm-6 p0" style="height:30px;">
+                <nav class="top_2_right">
+                    <a href="denglu.html">登录</a>
+                    <a href="zhuce.html">注册</a>
+                    <a href="#">商家入驻</a>
+                    <a href="denglu.html" class="bor-none" style="padding-right:0px;">商家登录</a>
+                </nav>
+                <a href="#" class="index_lianxi">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top1 p0">
+        <div class="container">
+            <div class="col-md-5 col-sm-5 p0">
+                <a class="top1_gg" href="index.html">家在中国</a>
+            </div>
+            <div class="col-md-7 col-sm-7 p0">
+                <nav class="top_1_nav">
+                    <a href="#" class="top_1_nav_xz">首页</a>
+                    <a href="woyao_zhuangxiu.html">我要装修</a>
+                    <a href="xiaoqu_anli.html">案例</a>
+                    <a href="zhuangxgs_liebiao.html">找装修公司</a>
+                    <a href="shifu_liebiao.html">找施工师傅</a>
+                    <a href="shejishi_liebiao.html">找设计师</a>
+                    <a href="zhaowojia.html">找我家</a>
+                    <a href="zixun_liebiao.html">装修必知</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid m-20">
+        <div class="container p0  wode_index">
+            <div class="col-ms-2 col-sm-2 wode_left">
+                <ul>
+                    <li class="wo_ledt_xz"><a href="wode_index.html">首页</a></li>
+                    <li><a href="wode_zx.html">我的装修</a></li>
+                    <li><a href="wode_sc.html">我的收藏</a></li>
+                    <li><a href="wode_xiaoxi.html">我的消息</a></li>
+                    <li class="wode_left_xz"><a href="wode_xx.html">账户设置</a></li>
+                    <li><a href="wode_luntan.html">业主论坛</a></li>
+                </ul>
+            </div>
+            <div class="col-ms-10 col-sm-10 wode_right p0">
+                <p class="gr-zhuti">头像更改</p>
+                <div class="main" style="text-align:center;padding-left:30px;">
+
+                    <div class="upload_form_cont">
+                        <form id="upload_form" enctype="multipart/form-data" method="post" action="upload.php">
+                            <div id="toux-index-top">
+                                <div><label for="image_file" class="tx-gg-la">选择本地照片，上传编辑自己的头像</label></div>
+                                <div class="xz-tp">
+                                    <input type="button" value="选择图片" id="tux-xuznze" /><span>支持jpg、gif、png、bmp格式的图片</span>
+                                    <input type="file" name="image_file" id="image_file" onchange="fileSelected();" />
+                                </div>
+                            </div>
+                            <div id="fileinfo">
+                                <div id="filename"></div>
+                                <div id="filesize"></div>
+                                <div id="filetype"></div>
+                                <div id="filedim"></div>
+                            </div>
+                            <div id="error">You should select valid image files only!</div>
+                            <div id="error2">An error occurred while uploading the file</div>
+                            <div id="abort">The upload has been canceled by the user or the browser dropped the connection</div>
+                            <div id="warnsize">Your file is very big. We can't accept it. Please select more small file</div>
+
+                            <div id="progress_info">
+                                <div id="progress"></div>
+                                <div id="progress_percent">&nbsp;</div>
+                                <div class="clear_both"></div>
+                                <div>
+                                    <div id="speed">&nbsp;</div>
+                                    <div id="remaining">&nbsp;</div>
+                                    <div id="b_transfered">&nbsp;</div>
+                                    <div class="clear_both"></div>
+                                </div>
+                                <div id="upload_response"></div>
+                            </div>
+                        </form>
+                        <div class="example" style="padding-top:30px;padding-left:40px;">
+                            <label style="font-size:1.6rem;margin-bottom:5px;">请编辑好头像后上传</label>
+                            <img id="target" style="display:inline-block;width:550px;height:350px;">
+                            <div id="preview-pane" style="display:inline-block">
+                                <div class="preview-container" style="display:inline-block;position:relative;width:200px;height:200px">
+                                    <img class="jcrop-preview" id="suol" style="width:550px;height:350px;display:inline-block">
+                                    <p style="">头像预览</p>
+                                </div>
+                            </div>
+
+                            <div class="example">
+                                <form method="post" onsubmit="return checkCoords();">
+                                    <input type="hidden" id="x" name="x">
+                                    <input type="hidden" id="y" name="y">
+                                    <input type="hidden" id="w" name="w">
+                                    <input type="hidden" id="h" name="h">
+                                    <input id="baocun-tx" class="cxbtn" type="button" value="保存头像" style="margin-top:15px;">
+                                    <input class="cxbtn" type="button" value="重选图片" id="quxiao-tx" style="margin-top:15px;">
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_button">
+        <div class="container">
+            <p><a href="#">关于我们</a> | <a href="#">加入我们</a> | <a href="#">加入我们</a> 隐私政策</p>
+            <p>地址:福州大床长4侧面和 总计:0591-98412361 QQ:987532195</p>
+            <p>266-3015 dsakasd.con AOO RIGhtS REASD 闽ICP备120052161号-2</p>
+
+        </div>
+    </div>
+    <script>
+    $("#baocun-tx").click(
+            function () {
+                if (parseInt($('#w').val())) {
+                    alert('保存头像成功。');
+                    return true;
+                };
+                alert('请先选择要裁剪的区域后，再提交。');
+                return false;
+            });
+
+    $(".example").hide();
+    $("#image_file").change(function () {
+        $(".example").show();
+        $("#toux-index-top").hide()
+
+    })
+    $(".xz-tp #image_file").hover(function () {
+        $("#tux-xuznze").css("background", "#e4e4e4");
+    }, function () {
+        $("#tux-xuznze").css("background", "rgba(246,246,246,0.6)");
+    })
+    $("#quxiao-tx").click(function () {
+        location.href = "toux_xiugai.html"
+    })
+    </script>
+
+
+</body>
+</html>

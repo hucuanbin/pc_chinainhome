@@ -1,0 +1,526 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my_css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/yxMobileSlider2.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid index_top p0">
+        <div class="container">
+            <div class="col-md-6 col-sm-6  col-xs-6 p0">
+                <a href="#" class="ben_city">福州</a>&nbsp;
+                <span>[切换城市 <a href="#">莆田</a> <a href="#">莆田</a>]</span>
+            </div>
+            <div class="col-md-6 col-sm-6  col-xs-6 p0" style="height:30px;">
+                <nav class="top_2_right">
+                    <a href="denglu.html">登录</a>
+                    <a href="zhuce.html">注册</a>
+                    <a href="#">商家入驻</a>
+                    <a href="denglu.html" class="bor-none" style="padding-right:0px;">商家登录</a>
+                </nav>
+                <a href="#" class="index_lianxi">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top1 p0">
+        <div class="container">
+            <div class="col-md-5 col-sm-5  col-xs-5 p0">
+                <a class="top1_gg" href="index.html">家在中国</a>
+            </div>
+            <div class="col-md-7 col-sm-7  col-xs-7 p0">
+                <nav class="top_1_nav">
+                    <a href="#" class="top_1_nav_xz">首页</a>
+                    <a href="woyao_zhuangxiu.html">我要装修</a>
+                    <a href="xiaoqu_anli.html">案例</a>
+                    <a href="zhuangxgs_liebiao.html">找装修公司</a>
+                    <a href="shifu_liebiao.html">找施工师傅</a>
+                    <a href="shejishi_liebiao.html">找设计师</a>
+                    <a href="zhaowojia.html">找我家</a>
+                    <a href="zixun_liebiao.html">装修必知</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top2 m-20 p0">
+        <div class="container">
+            <div class="col-md-7 col-sm-7  col-xs-7 p0">
+                <img src="images/top_3_guangg.png" class="top2_gg" />
+            </div>
+            <div class="col-sm-5 col-sm-5  col-xs-5 p0">
+                <div class="right text1" style="height:35px;">
+                    <img src="images/suosou.png" class="left" style="margin-right:0px;width: 9%;height:31px;width:35px;" />
+                    <input type="text" class="input1" placeholder="请输入品牌或商品名称进行搜索" />
+                    <input type="button" class="input2" value="搜 索" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p0 m-20">
+        <div class="container">
+            <div class="some_biaoti" style="margin-bottom:10px;">
+                <p>店铺公告<span class="some_biaoti_span">上传时间：2015-06-34</span></p>
+                <img src="images/wo_shi_xian.png" />
+            </div>
+            <div class="col-md-8 col-sm-8  col-xs-8 p-l0 gz_xq_index1_left">
+                <div class="kePublic">
+                    <!--效果html开始-->
+                    <div class="slider2">
+                        <ul>
+                            <li><a href="#"><img src="images/top_4_4.jpg" alt="首页"></a></li>
+                            <li><a href="#"><img src="images/top_4_2.jpg" alt="首页"></a></li>
+                            <li><a href="#"><img src="images/top_4_1.jpg" alt="首页"></a></li>
+                            <li><a href="#"><img src="images/top_4_3.jpg" alt="首页"></a></li>
+                            <li><a href="#"><img src="images/index_anli_1.png" alt="首页"></a></li>
+                        </ul>
+                    </div>
+                    <script>
+                        var a222 = new Array("1号图1", "2号图2", "3号图3", "4号图4", "5号图5");
+                        $(".slider2").yxMobileSlider2({ height: 320, width: 780, during: 5000, shuzu: a222 })
+                    </script>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4  col-xs-4 p-r0">
+                <div class="gs_xq_1">
+                    <div class=" index_neir1_2 gs_sq" style="height:320px;">
+                        <div class="col-md-7 col-sm-7  col-xs-7">
+                            <label style="height:36px; text-align:center;overflow:hidden;">装修公司民资装修公司民资装修公司民资</label>
+                            <p><span style="letter-spacing:7px;">联系</span>人：<span>大张伟</span></p>
+                            <p><span>联系方</span>式：<span>123456798101</span></p>
+                            <p>
+                                <span style="letter-spacing:4px;">联系</span>QQ：<span>
+                                    <a href="tencent://message/?uin=2402496569&Menu=yes">
+                                        <img src="images/lianxi_qq.gif" class="lianxi_qq"  style="height:17px;width:auto;margin:0px;"/>
+                                    </a>
+                                </span>
+                            </p>
+                            <p><span style="letter-spacing:7px;">口碑</span>值：<span class="xx_huang"><b class="glyphicon glyphicon-star"></b><b class="glyphicon glyphicon-star"></b><b class="glyphicon glyphicon-star"></b><b class="glyphicon glyphicon-star"></b><b class="glyphicon glyphicon-star"></b></span></p>
+                            <p><span style="letter-spacing:7px;">保证</span>金：<span>1000元</span></p>
+                        </div>
+                        <div class="col-md-5 col-sm-5  col-xs-5 text-center" style="height:193px;">
+                            <img src="images/shangpin_3.png" />
+                            <a href="#" data-toggle="modal" data-target="#myModal" style="outline:none" class="yuuye_inde mf_yuyue_jiaod">免费预约</a>
+                        </div>
+                        <div class="xq_dz" style="margin-top:20px;">
+                            <p><span style="letter-spacing:7px;">广告</span>语：<span>广告语啊广告语</span></p>
+                            <p class="" style="font-size: 14px;"><span>公司地</span>址：<span>旺庄路金源大厦B座321-322室</span></p>
+                            <p class="xq_dz" style="font-size: 14px;"><span>优惠促</span>销：<span>走过路过千万不要错过，买一送一大甩卖啦</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增（开始）-->
+    <div class="container-fluid p0 m-20">
+        <div class="container">
+            <div class="col-md-8 col-sm-8  col-xs-8 p-l0">
+                <div class="some_biaoti" style="margin-bottom:10px;">
+                    <p>最近参与项目</p>
+                    <img src="images/wo_shi_xian.png" />
+                </div>
+                <div class="zuijin">
+                    <table>
+                        <tr>
+                            <td>业主</td>
+                            <td>区域</td>
+                            <td>户型</td>
+                            <td>面积</td>
+                            <td>预算</td>
+                            <td>时间</td>
+                        </tr>
+                        <tr>
+                            <td>刘先生</td>
+                            <td>苏州市高新区</td>
+                            <td>住宅公寓</td>
+                            <td>86平方米</td>
+                            <td>8-12万</td>
+                            <td>2015-08-12</td>
+                        </tr>
+                        <tr>
+                            <td>刘先生</td>
+                            <td>苏州市高新区</td>
+                            <td>住宅公寓</td>
+                            <td>86平方米</td>
+                            <td>8-12万</td>
+                            <td>2015-08-12</td>
+                        </tr>
+                        <tr>
+                            <td>刘先生</td>
+                            <td>苏州市高新区</td>
+                            <td>住宅公寓</td>
+                            <td>86平方米</td>
+                            <td>8-12万</td>
+                            <td>2015-08-12</td>
+                        </tr>
+                        <tr>
+                            <td>刘先生</td>
+                            <td>苏州市高新区</td>
+                            <td>住宅公寓</td>
+                            <td>86平方米</td>
+                            <td>8-12万</td>
+                            <td>2015-08-12</td>
+                        </tr>
+                        <tr>
+                            <td>刘先生</td>
+                            <td>苏州市高新区</td>
+                            <td>住宅公寓</td>
+                            <td>86平方米</td>
+                            <td>8-12万</td>
+                            <td>2015-08-12</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4  col-xs-4 p-l0 ">
+                <div class="some_biaoti" style="margin-bottom:10px;">
+                    <p>精彩案例</p>
+                    <img src="images/wo_shi_xian.png" />
+                </div>
+                <div class="jingc_img">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- 轮播（Carousel）指标 -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <!-- 轮播（Carousel）项目 -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <a href="#">
+                                    <img src="images/02.jpg" alt="First slide">
+                                </a>
+
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="images/02.jpg" alt="First slide">
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="images/02.jpg" alt="First slide">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 轮播（Carousel）导航 -->
+                        <a class="carousel-control left" href="#myCarousel"
+                           data-slide="prev">&lsaquo;</a>
+                        <a class="carousel-control right" href="#myCarousel"
+                           data-slide="next">&rsaquo;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增新增（结束）-->
+
+    <div class="container-fluid p0 m-20">
+        <div class="container">
+            <div class="col-md-8 col-sm-8  col-xs-8 p-l0  shejis_xq_index_2">
+                <div class="some_biaoti" style="margin-bottom:10px;">
+                    <p>装修案例</p>
+                    <img src="images/wo_shi_xian.png" />
+                </div>
+                <div class="col-md-4 col-sm-4  col-xs-4 p0">
+                    <div>
+                        <a href="#">
+                            <img src="images/hyzz_1.png" />
+                            <p>
+                                <label>欧美风 <span class="right">金闽小区</span></label>
+                                <label>3居士 <span class="right">90平米/15万</span></label>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4  col-xs-4 p0">
+                    <div>
+                        <a href="#">
+                            <img src="images/hyzz_1.png" />
+                            <p>大章鱼国际</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4  col-xs-4 p0">
+                    <div>
+                        <a href="#">
+                            <img src="images/hyzz_1.png" />
+                            <p>大章鱼国际</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4  col-xs-4 p0">
+                    <div>
+                        <a href="#">
+                            <img src="images/hyzz_1.png" />
+                            <p>大章鱼国际</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4  col-xs-4 p0">
+                    <div>
+                        <a href="#">
+                            <img src="images/hyzz_1.png" />
+                            <p>大章鱼国际</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4  col-xs-4 p0">
+                    <div>
+                        <a href="#">
+                            <img src="images/hyzz_1.png" />
+                            <p>大章鱼国际</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4  col-xs-4 p-r0">
+                <div class="some_biaoti">
+                    <p style="margin-top:0px !important;">装修案例</p>
+                    <img src="images/wo_shi_xian2.png" />
+                </div>
+                <div class="al_right_index">
+                    <div class="col-md-4 col-sm-4  col-xs-4">
+                        <img src="images/07.png" />
+                    </div>
+                    <div class="col-md-8 col-sm-8  col-xs-8" style="padding:5px;">
+                        <label><a href="#">地沟油是什么？装修入住后最好使用地沟油</a></label>
+                        <p style="letter-spacing:1px">马英九召开“国安高层会议”，决定申请加入亚洲基础设施投资银行</p>
+                    </div>
+                </div>
+                <div class="index_neir2 gx_xq_left1">
+                    <div style="border:none;background:none;">
+                        <ul>
+                            <li><a href="#">荷花小区-张先生-120平方米-四居室<span>36万/半包</span></a></li>
+                            <li><a href="#">荷花小区-张先生-120平方米-四居室<span>36万/半包</span></a></li>
+                            <li><a href="#">荷花小区-张先生-120平方米-四居室<span>36万/半包</span></a></li>
+                            <li><a href="#">荷花小区-张先生-120平方米-四居室<span>36万/半包</span></a></li>
+                            <li><a href="#">荷花小区-张先生-120平方米-四居室<span>36万/半包</span></a></li>
+                            <li><a href="#">荷花小区-张先生-120平方米-四居室<span>36万/半包</span></a></li>
+                            <li><a href="#">荷花小区-张先生-120平方米-四居室<span>36万/半包</span></a></li>
+                            <li><a href="#">荷花小区-张先生-120平方米-四居室<span>36万/半包</span></a></li>
+                            <li><a href="#">荷花小区-张先生-120平方米-四居室<span>36万/半包</span></a></li>
+                            <li><a href="#">荷花小区-张先生-120平方米-四居室<span>36万/半包</span></a></li>
+                            <li><a href="#">荷花小区-张先生-120平方米-四居室<span>36万/半包</span></a></li>
+                            <li><a href="#">荷花小区-张先生-120平方米-四居室<span>36万/半包</span></a></li>
+                            <li><a href="#">荷花小区-张先生-120平方米-四居室<span>36万/半包</span></a></li>
+                            <li><a href="#">荷花小区-张先生-120平方米-四居室<span>36万/半包</span></a></li>
+                            <li><a href="#">荷花小区-张先生-120平方米-四居室<span>36万/半包</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p0 m-20">
+        <div class="container">
+            <div class="col-md-8 col-sm-8  col-xs-8 p-l0  leisi_anli">
+                <div class="some_biaoti" style="margin-bottom:10px;">
+                    <p>设计师</p>
+                    <img src="images/wo_shi_xian.png" />
+                </div>
+                <div class="col-ms-3 col-sm-3  col-xs-3">
+                    <div>
+                        <a href="#">
+                            <img src="images/06.jpg" />
+                            <p>大章鱼国际</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-ms-3 col-sm-3  col-xs-3">
+                    <div>
+                        <a href="#">
+                            <img src="images/06.jpg" />
+                            <p>大章鱼国际</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-ms-3 col-sm-3  col-xs-3">
+                    <div>
+                        <a href="#">
+                            <img src="images/06.jpg" />
+                            <p>大章鱼国际</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-ms-3 col-sm-3  col-xs-3">
+                    <div>
+                        <a href="#">
+                            <img src="images/06.jpg" />
+                            <p>大章鱼国际</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-sm-4 p-r0  col-xs-4">
+                <div class="some_biaoti">
+                    <p style="margin-top:0px !important;">设计师排行</p>
+                    <img src="images/wo_shi_xian2.png" />
+                </div>
+                <div class="al_right_index">
+                    <div class="col-md-4 col-sm-4  col-xs-4">
+                        <img src="images/07.png" />
+                    </div>
+                    <div class="col-md-8 col-sm-8  col-xs-8 sjs_ph" style="padding:5px;">
+                        <p>姓名：张三</p>
+                        <p>案例：78个</p>
+                        <p>装修风格：简约时尚</p>
+                    </div>
+                </div>
+                <div class="index_neir2 gx_xq_left2">
+                    <div style="border:none;background:none;height:auto;">
+                        <ul>
+                            <li><a href="#">3小时前<span>王小姐盛情了免费为设计服务</span></a></li>
+                            <li><a href="#">5小时前<span>王小姐盛情了免费为设计服务</span></a></li>
+                            <li><a href="#">7小时前<span>3王小姐盛情了免费为设计服务包</span></a></li>
+                            <li><a href="#">6小时前<span>王小姐盛情了免费为设计服务</span></a></li>
+                            <li><a href="#">3小时前<span>3王小姐盛情了免费为设计服务</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p0 m-20">
+        <div class="container leisi_anli">
+            <div class="some_biaoti" style="margin-bottom:10px;">
+                <p>类似设计</p>
+                <img src="images/wo_shi_xian.png" />
+            </div>
+            <div class="col-ms-3 col-sm-3  col-xs-3">
+                <div>
+                    <a href="#">
+                        <img src="images/06.jpg" />
+                        <p>大章鱼国际</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-ms-3 col-sm-3  col-xs-3">
+                <div>
+                    <a href="#">
+                        <img src="images/06.jpg" />
+                        <p>大章鱼国际</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-ms-3 col-sm-3  col-xs-3">
+                <div>
+                    <a href="#">
+                        <img src="images/06.jpg" />
+                        <p>大章鱼国际</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-ms-3 col-sm-3  col-xs-3">
+                <div>
+                    <a href="#">
+                        <img src="images/06.jpg" />
+                        <p>大章鱼国际</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid index_button">
+        <div class="container">
+            <p><a href="#">关于我们</a> | <a href="#">加入我们</a> | <a href="#">加入我们</a> 隐私政策</p>
+            <p>地址:福州大床长4侧面和 总计:0591-98412361 QQ:987532195</p>
+            <p>266-3015 dsakasd.con AOO RIGhtS REASD 闽ICP备120052161号-2</p>
+
+        </div>
+    </div>
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  anq-sz-jymm" style="min-width:550px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <label class="modal-title" id="myModalLabel">为了方便联系，请填写您的信息</label>
+                </div>
+                <div class="modal-body shejishi_yuyue" style="OVERFLOW-Y:auto;OVERFLOW-X:hidden;">
+                    <div class="col-ms-6 col-sm-6  col-xs-6">
+                        <div>
+                            <p>我的称呼</p>
+                            <input />
+                        </div>
+                        <div>
+                            <p>我的手机</p>
+                            <input />
+                        </div>
+                    </div>
+                    <div class="col-ms-6 col-sm-6  col-xs-6">
+                        <div>
+                            <p></p>
+                            <select>
+                                <option>女士</option>
+                                <option>先生</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p>所在小区</p>
+                            <input />
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer" style="text-align:center">
+                    <button type="button" data-dismiss="modal" class="bc-3B9BFF zc-button">
+                        提交
+                    </button>
+                    <button type="button" data-dismiss="modal" class="bc-3B9BFF zc-button" style="background:#DDDDDD;color:#333;margin-left:15px;">
+                        取消
+                    </button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script>
+        function AutoScroll(obj) {
+            $(obj).find("ul:first").animate({
+                marginTop: "-25px"
+            },
+            500,
+            function () {
+                $(this).css({
+                    marginTop: "0px"
+                }).find("li:first").appendTo(this);
+            });
+        }
+        $(document).ready(function () {
+            var myar = setInterval('AutoScroll("#scrollDiv")', 1000);
+            $("#scrollDiv").hover(function () {
+                clearInterval(myar);
+            },
+            function () {
+                myar = setInterval('AutoScroll("#scrollDiv")', 1000)
+            }); //当鼠标放上去的时候，滚动停止，鼠标离开的时候滚动开始
+        });
+        //滚到代码结束
+
+        //弹窗获得焦点
+        $(".mf_yuyue_jiaod").click(function () {
+            setTimeout(
+                        function () {
+                            $("#myModal").find("input:first").focus();
+                        }, 500);
+        });
+    </script>
+
+
+    <script>
+        $(".edui-btn-toolbar .edui-btn .edui-icon").click(function () {
+            $(".ltxq_fb").scrollLeft($(".ltxq_fb").width());
+        })
+    </script>
+</body>
+</html>

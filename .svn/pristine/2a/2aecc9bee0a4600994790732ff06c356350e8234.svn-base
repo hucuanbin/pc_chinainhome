@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my_css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/yxMobileSlider.js"></script>
+    <script src="js/yxMobileSlider1.js"></script>
+    <script src="js/yxMobileSlider2.js"></script>
+
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid index_top p0">
+        <div class="container">
+            <div class="col-md-6 col-sm-6 col-xs-6 p0">
+                <a href="#" class="ben_city">福州</a>&nbsp;
+                <span>[切换城市 <a href="#">莆田</a> <a href="#">莆田</a>]</span>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 p0" style="height:30px;">
+                <nav class="top_2_right">
+                    <a href="denglu.html">登录</a>
+                    <a href="zhuce.html">注册</a>
+                    <a href="#">商家入驻</a>
+                    <a href="denglu.html" class="bor-none" style="padding-right:0px;">商家登录</a>
+                </nav>
+                <a href="#" class="index_lianxi">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top1 p0">
+        <div class="container">
+            <div class="col-md-5 col-sm-5 col-xs-5 p0">
+                <a class="top1_gg" href="index.html">家在中国</a>
+            </div>
+            <div class="col-md-7 col-sm-7 col-xs-7 p0">
+                <nav class="top_1_nav">
+                    <a href="#" class="top_1_nav_xz">首页</a>
+                    <a href="woyao_zhuangxiu.html">我要装修</a>
+                    <a href="xiaoqu_anli.html">案例</a>
+                    <a href="zhuangxgs_liebiao.html">找装修公司</a>
+                    <a href="shifu_liebiao.html">找施工师傅</a>
+                    <a href="shejishi_liebiao.html">找设计师</a>
+                    <a href="zhaowojia.html">找我家</a>
+                    <a href="zixun_liebiao.html">装修必知</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top2 m-20 p0">
+        <div class="container">
+            <div class="col-md-7 col-sm-7 col-xs-7 p0">
+                <img src="images/top_3_guangg.png" class="top2_gg" />
+            </div>
+            <div class="col-sm-5 col-sm-5 col-xs-5 p0">
+                <div class="right text1" style="height:35px;">
+                    <img src="images/suosou.png" class="left" style="margin-right:0px;width: 9%;height:31px;width:35px;" />
+                    <input type="text" class="input1" placeholder="请输入品牌或商品名称进行搜索" />
+                    <input type="button" class="input2" value="搜 索" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p0 m-20">
+        <div class="container shifu_lb_index">
+            <div class="some_biaoti">
+                <p>口碑装修公司</p>
+                <img src="images/wo_shi_xian.png" />
+            </div>
+            <div class="gs_index">
+                <div class="some_biaoti">
+                        <p style="padding-bottom:0px;">软装</p>
+                        <img src="images/wo_shi_xian.png" />
+                </div>
+                <div class="gs_in_1">
+                    <a href="gs_xq.html">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+            </div>
+            <div class="gs_index">
+                <div class="some_biaoti">
+                    <p style="padding-bottom:0px;">软装</p>
+                    <img src="images/wo_shi_xian.png" />
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+            </div>
+            <div class="gs_index">
+                <div class="some_biaoti">
+                    <p style="padding-bottom:0px;">软装</p>
+                    <img src="images/wo_shi_xian.png" />
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+                <div class="gs_in_1">
+                    <a href="#">
+                        <img src="images/index_anli_1.png" />
+                        <p>电力</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid index_button">
+        <div class="container">
+            <p><a href="#">关于我们</a> | <a href="#">加入我们</a> | <a href="#">加入我们</a> 隐私政策</p>
+            <p>地址:福州大床长4侧面和 总计:0591-98412361 QQ:987532195</p>
+            <p>266-3015 dsakasd.con AOO RIGhtS REASD 闽ICP备120052161号-2</p>
+
+        </div>
+    </div>
+
+</body>
+</html>

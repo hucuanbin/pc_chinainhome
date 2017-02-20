@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my_css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/yxMobileSlider.js"></script>
+    <script src="js/yxMobileSlider1.js"></script>
+    <script src="js/yxMobileSlider2.js"></script>
+
+    <title></title>
+</head>
+<body>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/script1.js"></script>
+    <div class="container-fluid index_top p0">
+        <div class="container">
+            <div class="col-md-6 col-sm-6 col-xs-6 p0">
+                <a href="#" class="ben_city">福州</a>&nbsp;
+                <span>[切换城市 <a href="#">莆田</a> <a href="#">莆田</a>]</span>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 p0" style="height:30px;">
+                <nav class="top_2_right">
+                    <a href="denglu.html">登录</a>
+                    <a href="zhuce.html">注册</a>
+                    <a href="#">商家入驻</a>
+                    <a href="denglu.html" class="bor-none" style="padding-right:0px;">商家登录</a>
+                </nav>
+                <a href="#" class="index_lianxi">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top1 p0">
+        <div class="container">
+            <div class="col-md-5 col-sm-5 col-xs-5 p0">
+                <a class="top1_gg" href="index.html">家在中国</a>
+            </div>
+            <div class="col-md-7 col-sm-7 col-xs-7 p0">
+                <nav class="top_1_nav">
+                    <a href="#" class="top_1_nav_xz">首页</a>
+                    <a href="woyao_zhuangxiu.html">我要装修</a>
+                    <a href="xiaoqu_anli.html">案例</a>
+                    <a href="zhuangxgs_liebiao.html">找装修公司</a>
+                    <a href="shifu_liebiao.html">找施工师傅</a>
+                    <a href="shejishi_liebiao.html">找设计师</a>
+                    <a href="zhaowojia.html">找我家</a>
+                    <a href="zixun_liebiao.html">装修必知</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid m-20">
+        <div class="container p0  wode_index">
+            <div class="col-ms-2 col-sm-2 col-xs-2 wode_left">
+                <ul>
+                    <li class="wo_ledt_xz"><a href="wode_index.html">首页</a></li>
+                    <li><a href="wode_zx.html">我的装修</a></li>
+                    <li><a href="wode_sc.html">我的收藏</a></li>
+                    <li><a href="wode_xiaoxi.html">我的消息</a></li>
+                    <li class="wode_left_xz"><a href="wode_xx.html">账户设置</a></li>
+                    <li><a href="wode_luntan.html">业主论坛</a></li>
+                </ul>
+            </div>
+            <div class="col-ms-10 col-sm-10 col-xs-10 wod_xx">
+                <div class="wod_xx_right_1">
+                    <p>
+                        亲爱的<span>rentiys213921</span>，填写真实资料我们会妥善保管您的信息，我们还会为您提供个性的区域服务，您
+                        参加家在中国各类活动时，我们能够更方便地与您取得联系
+                    </p>
+                    <div class="wod_xx_right_2">
+                        <div>
+                            <nav class="wod_bqy">
+                                <span class="xiao_x_lb_xz" data-data="0">个人信息</span>
+                                <span data-data="1">安全设置</span>
+                            </nav>
+                            <span class="wode_xian"></span>
+                        </div>
+                        <div class="ge_xx_index1">
+                            <div class="upload_form_cont" style="overflow:auto;">
+                                <div id="error">You should select valid image files only!</div>
+                                <div id="error2">An error occurred while uploading the file</div>
+                                <div id="abort">The upload has been canceled by the user or the browser dropped the connection</div>
+                                <div id="warnsize">Your file is very big. We can't accept it. Please select more small file</div>
+
+                                <p class="img_tianj">添加图片</p>
+
+                                <div class="shaidan_img">
+                                    <div class="anli_tu">
+                                        <div>
+                                            <a class='glyphicon glyphicon-remove' href='javascript:void(0);'></a>
+                                        </div>
+                                        <img id='preview' />
+                                        <select>
+                                            <option>请选择</option>
+                                            <option>请选择</option>
+                                            <option>请选择</option>
+                                            <option>请选择</option>
+                                            <option>请选择</option>
+                                        </select>
+                                        <input />
+                                    </div>
+
+                                    <div style="position:absolute;">
+                                        <input type="file" style="width:100%;" name="image_file" id="image_file" onchange="fileSelected();" />
+                                        <span class="glyphicon glyphicon-plus"></span>
+                                    </div>
+
+                                </div>
+
+                                <div id="progress_info" style="margin-bottom:0px;">
+                                    <div id="progress"></div>
+                                    <div id="progress_percent">&nbsp;</div>
+                                    <div class="clear_both"></div>
+                                    <div>
+                                        <div id="speed">&nbsp;</div>
+                                        <div id="remaining">&nbsp;</div>
+                                        <div id="b_transfered">&nbsp;</div>
+                                        <div class="clear_both"></div>
+                                    </div>
+                                    <div id="upload_response"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label style="vertical-align:top;margin-top:10px;">当前头像：</label>
+                                <div>
+                                    <img src="images/touxiang.png" class="img-circle" />
+                                    <p class="text-center" style="padding-top:5px;"><a href="toux_xiugai.html">上传头像</a></p>
+                                </div>
+                            </div>
+                            <div>
+                                <label>用户名：</label>
+                                <div>
+                                    <input type="text" value="rentiys213921" />
+                                </div>
+                            </div>
+                            <div>
+                                <label>性别：</label>
+                                <div>
+                                    <input type="radio" name="sex" /><span style="margin-right:15px;">男</span>
+                                    <input type="radio" name="sex" /><span>女</span>
+                                </div>
+                            </div>
+                            <div>
+                                <label>所在地城市：</label>
+                                <div>
+                                    <select>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                    </select>
+                                    <select>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div>
+                                <label>手机号：</label>
+                                <div>
+                                    <input type="text" value="13598713652" />
+                                </div>
+                            </div>
+                            <div>
+                                <label>真实姓名：</label>
+                                <div>
+                                    <input type="text" value="王宝强" />
+                                </div>
+                            </div>
+                            <div>
+                                <label>生日：</label>
+                                <div>
+                                    <select>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                    </select>
+                                    年
+                                    <select>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                    </select>
+                                    月
+                                    <select>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                    </select>
+                                    日
+                                </div>
+                            </div>
+                            <div>
+                                <label>教育程度：</label>
+                                <div>
+                                    <select>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div>
+                                <label>职业：</label>
+                                <div>
+                                    <select>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div>
+                                <label>职务：</label>
+                                <div>
+                                    <input type="text" value="王宝强助理" />
+                                </div>
+                            </div>
+                            <div>
+                                <label>证件类型：</label>
+                                <div>
+                                    <select>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                        <option>请选择</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div>
+                                <label>证件号码：</label>
+                                <div>
+                                    <input type="text" value="13894389138" />
+                                </div>
+                            </div>
+                            <div>
+                                <label></label>
+                                <div>
+                                    <button class="btn_quan wodx_tj">提交</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ge_xx_index2">
+                            <div style="border-bottom:1px #ccc solid;">
+                                <div class="wd_xiaox_rigt_1">
+                                    <div class="col-ms-2 col-md-2 col-xs-2">
+                                        <img src="images/touxiang.png" class="img-circle" />
+                                        <p class="text-center"><a href="wode_xx.html">修改个人信息</a></p>
+                                    </div>
+                                    <div class="col-ms-10 col-md-10 col-xs-10">
+                                        <p><label>用户</label>名：<b style="color:#6AA6FF">大王叫我来巡山</b></p>
+                                        <p><label>昵</label>称：<b>加载中国网友</b></p>
+                                        <p><label>我的消</label>息：<b style="color:#EC3701">0条</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>
+                                <span class="wd_aq_yiyanz wd_yanz glyphicon glyphicon-ok-sign">
+                                </span>
+                                <span>登录密码</span>
+                                <span><a href="#" style="color:#FF9800">修改</a></span>
+                            </p>
+                            <p>
+                                <span class="wd_aq_weiyanz wd_yanz glyphicon glyphicon-exclamation-sign">
+                                </span>
+                                <span>邮箱验证</span>
+                                <span><a href="#" style="color:#E74550">立即验证</a></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_button">
+        <div class="container">
+            <p><a href="#">关于我们</a> | <a href="#">加入我们</a> | <a href="#">加入我们</a> 隐私政策</p>
+            <p>地址:福州大床长4侧面和 总计:0591-98412361 QQ:987532195</p>
+            <p>266-3015 dsakasd.con AOO RIGhtS REASD 闽ICP备120052161号-2</p>
+
+        </div>
+    </div>
+
+    <script>
+        $(".ge_xx_index2").hide();
+        $(".shouc_bj").click(function () {
+            var img_src = $(this).parent().siblings("img").attr("src");
+            $(".wdsc_tc").attr("src", img_src);
+        });
+        var now = 0, biaoji = 0;
+
+        $(".wod_bqy span").hover(function () {
+            var a = parseInt($(this).attr("data-data"));
+            biaoji = 1;
+
+            setTimeout(
+               function () {
+                   if (biaoji == 1) {
+                       if (a != now) {
+                           $(".wod_bqy span").attr("class", "");
+                           $(this).attr("class", "xiao_x_lb_xz");
+                           $(".wode_xian").css("left", a * 90 + "px");;
+                           $(".ge_xx_index1").hide();
+                           $(".ge_xx_index2").hide();
+                           $(".ge_xx_index" + (a + 1) + "").fadeToggle();
+                           now = a;
+                       } else {
+                           return;
+                       }
+                   }
+                   else {
+
+                       return;
+                   }
+               }, 500);
+
+        }, function () {
+            biaoji = 0;
+            return;
+        });
+
+
+        //添加图片成功
+
+        $("#image_file").change(function () {
+            $("#preview").attr("id", "")
+            $(".shaidan_img>.anli_tu:last").after(" <div class='anli_tu'><div><a class='glyphicon glyphicon-remove' href='javascript:void(0);'></a></div><img id='preview' /><select><option>请选择</option><option>请选择</option> </select><input /></div>");
+
+            var img_top = $("#preview").position().top;
+            var img_left = $("#preview").position().left;
+            $(".shaidan_img>div:last").css("left", img_left);
+            $(".shaidan_img>div:last").css("top", img_top);
+
+        });
+
+        //file定位
+        var img_top1 = $("#preview").position().top;
+        var img_left1 = $("#preview").position().left;
+        var img_wid = $("#preview").width();
+        $(".shaidan_img>div:last").css("left", img_left1);
+        $(".shaidan_img>div:last").css("top", img_top1);
+        $(".shaidan_img>div:last").width(img_wid);
+
+
+        //添加图片——删除
+        $(document).on('click', '.anli_tu>div>a', function (e) {
+            var a = $(this).parent().parent().children("img").attr("src");
+            if (a != "")
+                $(this).parent().parent().remove();
+            else
+                true;
+
+            var img_top = $("#preview").position().top;
+            var img_left = $("#preview").position().left;
+            $(".shaidan_img>div:last").css("left", img_left);
+            $(".shaidan_img>div:last").css("top", img_top);
+        });
+
+    </script>
+</body>
+</html>

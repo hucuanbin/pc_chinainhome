@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my_css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.validate.unobtrusive.min.js"></script>
+    <script src="js/modernizr-2.6.2.js"></script>
+    <div class="container-fluid index_top p0">
+        <div class="container">
+            <div class="col-md-6 col-sm-6 col-xs-6 p0">
+                <a href="#" class="ben_city">福州</a>&nbsp;
+                <span>[切换城市 <a href="#">莆田</a> <a href="#">莆田</a>]</span>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 p0" style="height:30px;">
+                <nav class="top_2_right">
+                    <a href="#">登录</a>
+                    <a href="#">注册</a>
+                    <a href="#">商家入驻</a>
+                    <a href="#" class="bor-none" style="padding-right:0px;">商家登录</a>
+                </nav>
+                <a href="#" class="index_lianxi">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top1 p0">
+        <div class="container">
+            <div class="col-md-5 col-sm-5 col-xs-5 p0">
+                <a class="top1_gg" href="index.html">家在中国</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid zhuce_index  m-20">
+        <div class="container">
+            <div class="zhuce_index_1">
+                <div class="col-md-4 col-sm-4 col-xs-4 p0">
+                    <nav id="xz_yh">
+                        <span data-data="3">企业用户</span>
+                        <span class="zhuce_index_xz" data-data="2">个人用户</span>
+                    </nav>
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-8">
+                    <p>已有帐号？<a href="denglu.html" class="lan_a">去登录</a></p>
+                </div>
+            </div>
+            <div class="zhuce_index_2" data-data="2" id="qiye_yh2">
+                <div>
+                    <label>用户名：</label>
+                    <input autofocus id="zc_21" />
+                    <b class="glyphicon glyphicon-user"></b>
+                    <span>建议使用中文名称:可输入4-20位字符，数字，英语下划线或组合</span>
+                </div>
+                <div>
+                    <label>设置密码：</label>
+                    <input />
+                    <b class="glyphicon glyphicon-lock"></b>
+                    <span>6-20给字符，不包含空格</span>
+                </div>
+                <div>
+                    <label>确认密码：</label>
+                    <input />
+                    <b class="glyphicon glyphicon-lock"></b>
+                    <span>再次输入密码:</span>
+                </div>
+                <div class="zhuce_gerwen_yanz">
+                    <label>验证码：</label>
+                    <input />
+                    <button></button>
+                    <span><a class="lan_a" href="#">看不清？换一个</a></span>
+                </div>
+                <div class="zhuce_geren_sf">
+                    <label>身份类型：</label>
+                    <input type="radio" checked="checked" name="zc_ger_sf" /><span>业主</span>
+                    <input type="radio" name="zc_ger_sf" /><span>设计师</span>
+                    <input type="radio" name="zc_ger_sf" /><span>长工</span>
+                </div>
+                <div class="zhuce_geren_sf">
+                    <label></label>
+                    <input type="checkbox" checked="checked" id="checkbox1" /><span>我接受家在中国网<a class="lan_a" href="#" data-toggle="modal" data-target="#myModal" style="outline:none">《服务条款》</a></span>
+                </div>
+                <div class="zhuce_geren_btn">
+                    <label></label>
+                    <button class="btn_quan" id="zhuce">立即注册</button>
+                </div>
+            </div>
+            <div class="zhuce_index_3 zhuce_index_2" data-data="2" id="qiye_yh3">
+                <div>
+                    <label>用户名：</label>
+                    <input id="zc_31"/>
+                    <b class="glyphicon glyphicon-user"></b>
+                    <span>建议使用中文名称:可输入4-20位字符，数字，英语下划线或组合</span>
+                </div>
+                <div>
+                    <label>设置密码：</label>
+                    <input />
+                    <b class="glyphicon glyphicon-lock"></b>
+                    <span>6-20给字符，不包含空格</span>
+                </div>
+                <div>
+                    <label>确认密码：</label>
+                    <input />
+                    <b class="glyphicon glyphicon-lock"></b>
+                    <span>再次输入密码:</span>
+                </div>
+                <label>公司信息</label>
+                <div style="margin-top:0px !important;">
+                    <label>联系人：</label>
+                    <input />
+                </div>
+                <div>
+                    <label>联系电话：</label>
+                    <input />
+                </div>
+                <div>
+                    <label>所在地区：</label>
+                    <select id="selecr1">
+                        <option>请选择</option>
+                        <option>请选择</option>
+                        <option>请选择</option>
+                    </select>
+                    <select id="selecr2">
+                        <option>请选择</option>
+                        <option>请选择</option>
+                        <option>请选择</option>
+                    </select>
+                </div>
+                <div>
+                    <label>所在地区：</label>
+                    <input />
+                </div>
+                <div>
+                    <label>公司名称：</label>
+                    <input />
+                </div>
+                <div>
+                    <label>公司类型：</label>
+                    <select id="selecr3">
+                        <option>请选择</option>
+                        <option>请选择</option>
+                        <option>请选择</option>
+                    </select>
+                </div>
+                <div class="chuce_yq_shangc">
+                    <label>公司名称：</label>
+                    <button>上传图片</button>
+                    <input  type="file" class="zc_sc_kj"/>
+                    <span>建议尺寸:200*200 请注意图片清晰度</span>
+                </div>
+                <div class="zhuce_geren_btn">
+                    <label></label>
+                    <button class="btn_quan" id="zhuce1">立即注册</button>
+                </div>
+                <div class="zhuce_geren_sf" style="margin-top:0px;">
+                    <label></label>
+                    <input type="checkbox" checked="checked" id="checkbox2" /><span>我接受家在中国网<a class="lan_a" href="#" data-toggle="modal" data-target="#myModal1" style="outline:none">《服务条款》</a></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1" style="width:1000px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 class="modal-title" id="myModalLabel">徐才厚癌症恶化医治无效死亡</h2>
+                </div>
+                <div class="modal-body" style="OVERFLOW-Y:auto;OVERFLOW-X:hidden; height:400px;">
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+
+                </div>
+                <div class="modal-footer" style="text-align:center">
+                    <button type="button" id="tongyi" data-dismiss="modal" class="zc-button">
+                        同意并接受
+                    </button>
+                </div>
+
+
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1" style="width:1000px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 class="modal-title" id="myModalLabel">我是企业级的用户</h2>
+                </div>
+                <div class="modal-body" style="OVERFLOW-Y:auto;OVERFLOW-X:hidden; height:400px;">
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+                    <h4>沪指大涨1.82%创67月新高 板块全线飘红</h4>
+                    <p>上周的上涨，主要动力来自基本面的利好，总结起来有以下五方面因素：首先，国务院批准了1万亿元的地方债务置换额度，允许企业在契约精神下借新还旧进行置换。债务置换会使债务久期延长、降低风险，可以有效降低融资成本，减少银行系统坏账出现的可能性。上周银行股受此消息刺激，整体表现活跃，成为周涨幅最大的板块.</p>
+
+                </div>
+                <div class="modal-footer" style="text-align:center">
+                    <button type="button" id="tongyi1" data-dismiss="modal" class="zc-button">
+                        同意并接受
+                    </button>
+                </div>
+
+
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="container-fluid index_button">
+        <div class="container">
+            <p><a href="#">关于我们</a> | <a href="#">加入我们</a> | <a href="#">加入我们</a> 隐私政策</p>
+            <p>地址:福州大床长4侧面和 总计:0591-98412361 QQ:987532195</p>
+            <p>266-3015 dsakasd.con AOO RIGhtS REASD 闽ICP备120052161号-2</p>
+
+        </div>
+    </div>
+    <script>
+        $(".zhuce_index_3").hide();
+
+        $("#xz_yh span").click(function () {
+            var a = $(this).attr("data-data");
+            $("#xz_yh span").attr("class", "");
+            $(this).attr("class", "zhuce_index_xz");
+            $(".zhuce_index_2").hide();
+            $(".zhuce_index").find("#qiye_yh" + a + "").show();
+            $(".zhuce_index").find("#zc_" + a + "1").focus();
+
+        });
+
+
+        $(document).ready(function () {
+            $("#checkbox1").click(function () {
+                if ($("#checkbox1").is(":checked")) {
+                    $('#zhuce').removeAttr("disabled");
+                }
+                else {
+                    $('#zhuce').attr('disabled', "true"); 添加disabled属性
+                }
+            });
+        });
+        $(document).ready(function () {
+            $("#tongyi").click(function () {
+                $('#zhuce').removeAttr("disabled");
+                $("#checkbox1").prop("checked", true);
+            });
+        });        $(document).ready(function () {
+            $("#checkbox2").click(function () {
+                if ($("#checkbox2").is(":checked")) {
+                    $('#zhuce1').removeAttr("disabled");
+                }
+                else {
+                  $('#zhuce1').prop('disabled', true); 添加disabled属性
+                }
+            });
+        });
+        $(document).ready(function () {
+            $("#tongyi1").click(function () {
+                $('#zhuce1').removeAttr("disabled");
+                $("#checkbox2").prop("checked", true);
+            });
+        });
+    </script>
+</body>
+</html>

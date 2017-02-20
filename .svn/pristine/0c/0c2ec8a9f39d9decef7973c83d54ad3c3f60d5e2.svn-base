@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my_css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid index_top p0">
+        <div class="container">
+            <div class="col-md-6 col-sm-6 p0">
+                <a href="#" class="ben_city">福州</a>&nbsp;
+                <span>[切换城市 <a href="#">莆田</a> <a href="#">莆田</a>]</span>
+            </div>
+            <div class="col-md-6 col-sm-6 p0" style="height:30px;">
+                <nav class="top_2_right">
+                    <a href="#">登录</a>
+                    <a href="#">注册</a>
+                    <a href="#">商家入驻</a>
+                    <a href="#" class="bor-none" style="padding-right:0px;">商家登录</a>
+                </nav>
+                <a href="#" class="index_lianxi">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top1 p0">
+        <div class="container">
+            <div class="col-md-5 col-sm-5 p0">
+                <a class="top1_gg" href="index.html">家在中国</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid  denglu_index m-20">
+        <div class="container">
+            <div class="col-md-7 col-sm-7">
+                <img src="images/denglu_left.png" />
+            </div>
+            <div class="col-md-5 col-sm-5 denglu_index_bt">
+                <div class="denglu_index_1">
+                    <nav>
+                        <span class="dl_xz" data-data="1">普通登录</span>
+                        <span data-data="2">手机动态密码登录</span>
+                    </nav>
+                    <div class="denglu_index_1_1">
+                        <div id="dl_1">
+                            <label>用户名</label>
+                            <div>
+                                <input />
+                                <span class="glyphicon glyphicon-user">  </span>
+                            </div>
+                            <label>密码<span class="right"><a href="#">忘记密码?</a></span></label>
+                            <div>
+                                <input />
+                                <span class="glyphicon glyphicon-lock"></span>
+                            </div>
+                            <p>还没帐号，<span><a href="#">立即注册</a></span></p>
+                            <button class="btn_quan dl_btn_1">立即登录</button>
+                        </div>
+                        <div id="dl_2">
+                            <label>手机号登录</label>
+                            <div>
+                                <input />
+                                 <span class="glyphicon glyphicon-phone"></span>
+                            </div>
+                            <label>验证码<span class="right"></span></label>
+                            <div>
+                                 <input style="padding-right:125px;"/>
+                                <button type="button" class="btn btn-default" id="btn_send_code">获取验证码</button>
+                            </div>
+                            <p>还没帐号，<span><a href="#">立即注册</a></span></p>
+                            <button class="btn_quan dl_btn_1">立即登录</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_button">
+        <div class="container">
+            <p><a href="#">关于我们</a> | <a href="#">加入我们</a> | <a href="#">加入我们</a> 隐私政策</p>
+            <p>地址:福州大床长4侧面和 总计:0591-98412361 QQ:987532195</p>
+            <p>266-3015 dsakasd.con AOO RIGhtS REASD 闽ICP备120052161号-2</p>
+
+        </div>
+    </div>
+    <script>
+        $("#dl_2").hide();
+        $(".denglu_index_1>nav>span").click(function () {
+            var biaoji = $(this).attr("data-data");
+            $(".denglu_index_1_1>div").hide();
+            $("#dl_" + biaoji + "").show();
+
+            $(".denglu_index_1>nav>span").attr("class", "");
+            $(this).attr("class", "dl_xz");
+        })
+
+        $("#btn_send_code").click(function () {
+            var a = 3;
+            $("#btn_send_code").attr("disabled", "disabled");
+
+            var mytime = setInterval(function () {
+                getTime();
+            }, 1000);
+            function getTime() {
+                if (a == 0) {
+                    $("#btn_send_code").prop("disabled",false);
+                    $("#btn_send_code").text("获取验证码");
+                    clearInterval(mytime);
+                }
+                else {
+                    a -= 1;
+                    $("#btn_send_code").text("重新发送（" + a + "）");
+                }
+            }
+            //点击代码
+            var mobile = $("#mobile").val();
+            if (mobile == "") {
+                alert('请填入手机号码！');
+                return;
+            }
+            $.ajax({
+                url: '/Register/Sent_Msg',
+                data: { 'mobile': mobile },
+                dataType: 'json',
+                type: 'post',
+                success: function (data) {
+                    if (data == true) {
+                    }
+                }
+            });
+            btn_timeout();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+﻿@charset "utf-8";
+/*主导航*/
+.kePublic{margin-top:5px;}
+.publicNav { width: 608px; height: 35px; position: relative;z-index: 8; background:#6AA5FF;display:inline-block }
+.publicNav_nav { height: 37px; _height: 36px; width: 610px; margin: -1px auto 0; position: relative }
+.publicNav_nav p { float: left; display: inline; position: relative; text-align: center; height: 36px; padding: 0 20px; z-index: 10 }
+.publicNav_nav p.noBackground { background: none }
+.publicNav_nav p a { padding: 2px 20px; font: bold 16px/36px Microsoft Yahei; color: #404040 }
+.publicNav_nav p a:hover { text-decoration: none }
+.publicNav_nav p a.hover { text-decoration: none; color: #fff }
+.publicNavHover { position: absolute; height: 39px; top: -3px; overflow: hidden; z-index: 9 }
+.publicNavHoverF { width: 4px; height: 39px; background: url(../image/aa1.png) no-repeat; position: absolute; left: 0; top: 0 }
+.publicNavHoverM { height: 39px; background: #468efa; position: absolute; left: 4px; top: 0 }
+.publicNavHoverE { width: 4px; height: 39px; background: url(../image/aa1.png) right 0 no-repeat; position: absolute; right: 0; top: 0 }

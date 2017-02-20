@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my_css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid index_top p0">
+        <div class="container">
+            <div class="col-md-6 col-sm-6 p0">
+                <a href="#" class="ben_city">福州</a>&nbsp;
+                <span>[切换城市 <a href="#">莆田</a> <a href="#">莆田</a>]</span>
+            </div>
+            <div class="col-md-6 col-sm-6 p0" style="height:30px;">
+                <nav class="top_2_right">
+                    <a href="#">登录</a>
+                    <a href="#">注册</a>
+                    <a href="#">商家入驻</a>
+                    <a href="#" class="bor-none" style="padding-right:0px;">商家登录</a>
+                </nav>
+                <a href="#" class="index_lianxi">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top1 p0">
+        <div class="container">
+            <div class="col-md-5 col-sm-5 p0">
+                <a class="top1_gg" href="index.html">家在中国</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid  m-20">
+        <div class="container">
+            <label>找回密码</label>
+            <div class="zhmm_zong">
+                <div class="text-center">
+                    <img src="images/zhmm1.png"/>
+                </div>
+                <div class="zhmm_1_index">
+                    <div class="zhmm_1_1">
+                        <label>注册邮箱：</label><input placeholder="请输入您的注册姓名"/>
+                    </div>
+                    <div class="zhmm_1_2">
+                        <label>验证码：</label><input /> <button class="yanzm"></button><span class="lan_a">看不清？换一个</span>
+                    </div>
+                    <button class="btn_quan" id="go_zhmm2">下一步</button>
+                </div>
+               <div class="zhmm_yx">
+                   <span class="zhmm-2-1">
+                       <b class="glyphicon glyphicon-ok"></b>
+                   </span>
+                   <label class="zhmm-2-2">系统已经向<span>111111@qq.com</span>发送了一封验证邮件，请您按邮件指引验证完成后设置新的密码.</label>
+               </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_button">
+        <div class="container">
+            <p><a href="#">关于我们</a> | <a href="#">加入我们</a> | <a href="#">加入我们</a> 隐私政策</p>
+            <p>地址:福州大床长4侧面和 总计:0591-98412361 QQ:987532195</p>
+            <p>266-3015 dsakasd.con AOO RIGhtS REASD 闽ICP备120052161号-2</p>
+
+        </div>
+    </div>
+    <script>
+        $(".zhmm_yx").hide();
+        $("#go_zhmm2").click(function () {
+            $(".zhmm_1_index").hide();
+            $(".zhmm_yx").show();
+           // location.href = "wangi_mima_2.html";
+        });
+    </script>
+</body>
+</html>

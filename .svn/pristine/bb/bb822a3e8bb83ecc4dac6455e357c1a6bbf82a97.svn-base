@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my_css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/yxMobileSlider.js"></script>
+    <script src="js/yxMobileSlider1.js"></script>
+    <script src="js/yxMobileSlider2.js"></script>
+
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid index_top p0">
+        <div class="container">
+            <div class="col-md-6 col-sm-6 p0">
+                <a href="#" class="ben_city">福州</a>&nbsp;
+                <span>[切换城市 <a href="#">莆田</a> <a href="#">莆田</a>]</span>
+            </div>
+            <div class="col-md-6 col-sm-6 p0" style="height:30px;">
+                <nav class="top_2_right">
+                    <a href="denglu.html">登录</a>
+                    <a href="zhuce.html">注册</a>
+                    <a href="#">商家入驻</a>
+                    <a href="denglu.html" class="bor-none" style="padding-right:0px;">商家登录</a>
+                </nav>
+                <a href="#" class="index_lianxi">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top1 p0">
+        <div class="container">
+            <div class="col-md-5 col-sm-5 p0">
+                <a class="top1_gg" href="index.html">家在中国</a>
+            </div>
+            <div class="col-md-7 col-sm-7 p0">
+                <nav class="top_1_nav">
+                    <a href="#" class="top_1_nav_xz">首页</a>
+                    <a href="#">我要装修</a>
+                    <a href="#">案例</a>
+                    <a href="#">找装修公司</a>
+                    <a href="#">找施工师傅</a>
+                    <a href="#">找设计师</a>
+                    <a href="#">找我家</a>
+                    <a href="#">装修必知</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top2 m-20 p0">
+        <div class="container">
+            <div class="col-md-7 col-sm-7 p0">
+                <img src="images/top_3_guangg.png" class="top2_gg" />
+            </div>
+            <div class="col-sm-5 col-sm-5 p0">
+                <div class="right text1" style="height:35px;">
+                    <img src="images/suosou.png" class="left" style="margin-right:0px;width: 9%;height:31px;width:35px;" />
+                    <input type="text" class="input1" placeholder="请输入品牌或商品名称进行搜索" />
+                    <input type="button" class="input2" value="搜 索" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p0 m-20">
+        <div class="container">
+            <div class="some_biaoti" style="margin-bottom:10px;">
+                <p>剪发倒萨大5#304<span style="color:#E48250">【中式风格】</span></p>
+                <img src="images/wo_shi_xian.png" />
+            </div>
+            <div class="col-md-8 col-sm-8 p0 an_li_lunbo">
+                <div class="an_li_lunbo_top">
+                    <b class="span_bian_left lunbo_top_b"><span class="lunbo_top_left lunbo_top_span"></span></b>
+                    <ul id="lunb_top" data-data="0">
+                        <li><img src="images/07.png" /></li>
+                        <li><img src="images/02.jpg" /></li>
+                        <li><img src="images/05.jpg" /></li>
+                        <li><img src="images/02.jpg" /></li>
+                        <li><img src="images/07.png" /></li>
+                        <li><img src="images/02.jpg" /></li>
+                        <li><img src="images/05.jpg" /></li>
+                        <li><img src="images/05.jpg" /></li>
+                        <li><img src="images/02.jpg" /></li>
+                        <li><img src="images/07.png" /></li>
+                        <li><img src="images/02.jpg" /></li>
+                        <li><img src="images/05.jpg" /></li>
+                    </ul>
+                    <b class="span_bian_right lunbo_top_b"><span class="lunbo_top_right lunbo_top_span"></span></b>
+                </div>
+                <div class="an_li_lunbo_botton">
+                    <b id="lb_botton_left" class="lunbo_botton_b lunbo_botton_b_left"><span class="lunbo_botton_span lunbo_botton_span_left"></span></b>
+                    <div style="position:relative;">
+                        <ul data-data="0" id="lb_bton_ul">
+                            <li class="lunbo_li_xz"><img src="images/07.png" /></li>
+                            <li><img src="images/02.jpg" /></li>
+                            <li><img src="images/05.jpg" /></li>
+                            <li><img src="images/02.jpg" /></li>
+                            <li><img src="images/07.png" /></li>
+                            <li><img src="images/02.jpg" /></li>
+                            <li><img src="images/05.jpg" /></li>
+                            <li><img src="images/05.jpg" /></li>
+                            <li><img src="images/02.jpg" /></li>
+                            <li><img src="images/07.png" /></li>
+                            <li><img src="images/02.jpg" /></li>
+                            <li><img src="images/05.jpg" /></li>
+                        </ul>
+                    </div>
+                    <b id="lb_botton_right" class="lunbo_botton_b lunbo_botton_b_right"><span class="lunbo_botton_span lunbo_botton_span_right"></span></b>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 p-r0">
+                <div class="zuixin_anli_top_right">
+                    <p class="sheji_top">本案设计师 <span><a href="#">免费预约</a></span></p>
+                    <img src="images/06.jpg" />
+                    <div>
+                        <p><span class="zuxin_name">李小林</span><span style="display:inline-block;margin-left:80px">主创设计师</span><span class="right">6年经验</span></p>
+                        <p><span class="al_span">风格：现代简约</span><span>户型：三居</span></p>
+                        <p><span class="al_span">面积：90平米</span><span>预算：13万元</span></p>
+                        <p style="letter-spacing:1px;">设计说明：巴拉巴巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉
+                        </p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p0 m-20">
+        <div class="container leisi_anli">
+            <div class="some_biaoti" style="margin-bottom:10px;">
+                <p>类似设计</p>
+                <img src="images/wo_shi_xian.png" />
+            </div>
+            <div class="col-ms-3 col-sm-3">
+                <div>
+                    <a href="#">
+                        <img src="images/06.jpg" />
+                        <p>大章鱼国际</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-ms-3 col-sm-3">
+                <div>
+                    <a href="#">
+                        <img src="images/06.jpg" />
+                        <p>大章鱼国际</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-ms-3 col-sm-3">
+                <div>
+                    <a href="#">
+                        <img src="images/06.jpg" />
+                        <p>大章鱼国际</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-ms-3 col-sm-3">
+                <div>
+                    <a href="#">
+                        <img src="images/06.jpg" />
+                        <p>大章鱼国际</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid index_button">
+        <div class="container">
+            <p><a href="#">关于我们</a> | <a href="#">加入我们</a> | <a href="#">加入我们</a> 隐私政策</p>
+            <p>地址:福州大床长4侧面和 总计:0591-98412361 QQ:987532195</p>
+            <p>266-3015 dsakasd.con AOO RIGhtS REASD 闽ICP备120052161号-2</p>
+
+        </div>
+    </div>
+    <script>
+        var ul_width = $(".an_li_lunbo_top").width();//上轮播单个LI的宽度
+        var li_num = $(".an_li_lunbo_top li").length;//上轮播LI的个数
+
+        var btn_wid = $("#lb_bton_ul").width();//下轮播单个LI的宽度
+        var bton_li_new = $("#lb_bton_ul li").length;
+        var li_num_data = $(".an_li_lunbo_top li").length - 1;
+        $(document).ready(function () {
+            $(".an_li_lunbo_top ul").width(ul_width * li_num);
+            $(".an_li_lunbo_top img").width(ul_width);
+        })
+        //轮播上-左
+        $(".span_bian_right").click(function () {
+            var num = $("#lunb_top").attr("data-data");
+            if (num == li_num_data) {
+
+                return;
+            }
+            else {
+                //     alert("num:" + num + ",li_num:" + li_num);
+                //        alert(num +":"+li_num_data)
+                num++;
+                $("#lunb_top").css("left", ul_width * num * -1);
+            }
+            $("#lunb_top").attr("data-data", num);
+        })
+        //轮播上-右
+        $(".span_bian_left").click(function () {
+            var num = $("#lunb_top").attr("data-data");
+            if (num == 0) {
+                return;
+            }
+            else {
+                num--;
+                $("#lunb_top").css("left", -1 * ul_width * num);
+            }
+            $("#lunb_top").attr("data-data", num);
+        })
+        //轮播下-左
+        $("#lb_botton_left").click(function () {
+            var new_let =parseInt( $("#lb_bton_ul").css("left"));
+            if (new_let == 0) {
+
+            }
+            else if (new_let * -1 < btn_wid) {
+                $("#lb_bton_ul").css("left",0);
+            }
+            else {
+                $("#lb_bton_ul").css("left", new_let +  btn_wid)
+            }
+        });
+        //轮播下-右
+        $("#lb_botton_right").click(function () {
+            var new_let = parseInt($("#lb_bton_ul").css("left"));
+            var zong = bton_li_new * 143.5;
+          
+            if (new_let == zong) {
+                return;
+            }
+            else if ((new_let + btn_wid * -1 - btn_wid) < zong * -1) {
+                $("#lb_bton_ul").css("left", zong * -1+ btn_wid)
+
+            }
+            else {
+              //  alert(btn_wid);
+                $("#lb_bton_ul").css("left", new_let- btn_wid);
+            }
+        });
+        //轮播下图片点击
+        $("#lb_bton_ul li").click(function () {
+            var diaji = $(this).index();
+            $("#lunb_top").css("left", diaji * ul_width * -1);
+            $("#lunb_top").attr("data-data", diaji);
+            $(this).siblings("li").attr("class", "");
+            $(this).attr("class", "lunbo_li_xz");
+
+        });
+        $(".lunbo_top_b").click(function () {
+            var now_bot =parseInt( $("#lunb_top").attr("data-data"));
+            var zuiduo = bton_li_new / 5 + 1;
+            $("#lb_bton_ul li").attr("class", "");
+            $("#lb_bton_ul li:eq(" + now_bot + ")").attr("class", "lunbo_li_xz");
+            if (now_bot < bton_li_new - 5) {
+                $("#lb_bton_ul").css("left", now_bot *143.5*-1);
+            }
+            else {
+                $("#lb_bton_ul").css("left", (bton_li_new - 5) * 143.5 * -1);
+
+            }
+        });
+    </script>
+</body>
+</html>

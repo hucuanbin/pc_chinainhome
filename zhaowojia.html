@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my_css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/yxMobileSlider.js"></script>
+    <script src="js/yxMobileSlider1.js"></script>
+    <script src="js/yxMobileSlider2.js"></script>
+    <script src="http://api.map.baidu.com/api?v=1.5&ak=6bf286074aa246093e0b2d1ae4ee38e4" type="text/javascript"></script>
+    <title></title>
+    <style>
+        #tangram-suggestion--TANGRAM__14-main {
+            min-width: 210px;
+        }
+
+            #tangram-suggestion--TANGRAM__14-main > div {
+                min-width: 210px;
+                width: 210px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container-fluid index_top p0">
+        <div class="container">
+            <div class="col-md-6 col-sm-6 col-xs-6 p0">
+                <a href="#" class="ben_city">福州</a>&nbsp;
+                <span>[切换城市 <a href="#">莆田</a> <a href="#">莆田</a>]</span>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 p0" style="height:30px;">
+                <nav class="top_2_right">
+                    <a href="denglu.html">登录</a>
+                    <a href="zhuce.html">注册</a>
+                    <a href="#">商家入驻</a>
+                    <a href="denglu.html" class="bor-none" style="padding-right:0px;">商家登录</a>
+                </nav>
+                <a href="#" class="index_lianxi">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top1 p0">
+        <div class="container">
+            <div class="col-md-5 col-sm-5 col-xs-5 p0">
+                <a class="top1_gg" href="index.html">家在中国</a>
+            </div>
+            <div class="col-md-7 col-sm-7 col-xs-7 p0">
+                <nav class="top_1_nav">
+                    <a href="#" class="top_1_nav_xz">首页</a>
+                    <a href="woyao_zhuangxiu.html">我要装修</a>
+                    <a href="xiaoqu_anli.html">案例</a>
+                    <a href="zhuangxgs_liebiao.html">找装修公司</a>
+                    <a href="shifu_liebiao.html">找施工师傅</a>
+                    <a href="shejishi_liebiao.html">找设计师</a>
+                    <a href="zhaowojia.html">找我家</a>
+                    <a href="zixun_liebiao.html">装修必知</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top2 m-20 p0">
+        <div class="container">
+            <div class="col-md-7 col-sm-7 col-xs-7 p0">
+                <img src="images/top_3_guangg.png" class="top2_gg" />
+            </div>
+            <div class="col-sm-5 col-sm-5 col-xs-5 p0">
+                <div class="right text1" style="height:35px;">
+                    <img src="images/suosou.png" class="left" style="margin-right:0px;width: 9%;height:31px;width:35px;" />
+                    <input type="text" class="input1" placeholder="请输入品牌或商品名称进行搜索" />
+                    <input type="button" class="input2" value="搜 索" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p0 m-20">
+        <div class="container zhaowojia_index">
+            <div class="some_biaoti">
+                <p>找我家</p>
+                <img src="images/wo_shi_xian.png" />
+            </div>
+            <div class="bor-quan" style="overflow:auto;margin-top:10px;">
+                <div class="col-md-3 col-sm-3 col-xs-3 p0">
+                    <div id="r-result" class="text-center index_neir1_2">
+                        <p><img src="images/sousuodi.png" />找我家小区</p>
+                        <input placeholder="输入所在小区名称" autofocus id="suggestId" value="百度" type="text" />
+                        <button>获取周围案例和在建工地信息</button>
+                    </div>
+                    <div class="zhaowojia_left_2">
+                        <label>附近小区</label>
+                        <div>
+                            <div>
+                                <a href="#">
+                                    <img src="images/index_anli_2.png" />
+                                    <p>某某小区</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="images/index_anli_2.png" />
+                                    <p>某某小区</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="images/index_anli_2.png" />
+                                    <p>某某小区</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="images/index_anli_2.png" />
+                                    <p>某某小区</p>
+                                </a>
+                            </div>
+                        </div>
+                      
+                     
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-9 p0">
+                    <div id="l-map" style="height:847px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid index_button">
+        <div class="container">
+            <p><a href="#">关于我们</a> | <a href="#">加入我们</a> | <a href="#">加入我们</a> 隐私政策</p>
+            <p>地址:福州大床长4侧面和 总计:0591-98412361 QQ:987532195</p>
+            <p>266-3015 dsakasd.con AOO RIGhtS REASD 闽ICP备120052161号-2</p>
+
+        </div>
+    </div>
+
+</body>
+</html>
+<script type="text/javascript">
+    // 百度地图API功能
+    function G(id) {
+        return document.getElementById(id);
+    }
+
+    var map = new BMap.Map("l-map");
+    map.centerAndZoom("福州", 13);                   // 初始化地图,设置城市和地图级别。
+
+    var ac = new BMap.Autocomplete(    //建立一个自动完成的对象
+		{
+		    "input": "suggestId"
+		, "location": map
+		});
+
+    ac.addEventListener("onhighlight", function (e) {  //鼠标放在下拉列表上的事件
+        var str = "";
+        var _value = e.fromitem.value;
+        var value = "";
+        if (e.fromitem.index > -1) {
+            value = _value.province + _value.city + _value.district + _value.street + _value.business;
+        }
+        str = "FromItem<br />index = " + e.fromitem.index + "<br />value = " + value;
+
+        value = "";
+        if (e.toitem.index > -1) {
+            _value = e.toitem.value;
+            value = _value.province + _value.city + _value.district + _value.street + _value.business;
+        }
+        str += "<br />ToItem<br />index = " + e.toitem.index + "<br />value = " + value;
+        G("searchResultPanel").innerHTML = str;
+    });
+
+    var myValue;
+    ac.addEventListener("onconfirm", function (e) {    //鼠标点击下拉列表后的事件
+        var _value = e.item.value;
+        myValue = _value.province + _value.city + _value.district + _value.street + _value.business;
+        G("searchResultPanel").innerHTML = "onconfirm<br />index = " + e.item.index + "<br />myValue = " + myValue;
+
+        setPlace();
+    });
+
+    function setPlace() {
+        map.clearOverlays();    //清除地图上所有覆盖物
+        function myFun() {
+            var pp = local.getResults().getPoi(0).point;    //获取第一个智能搜索的结果
+            map.centerAndZoom(pp, 18);
+            map.addOverlay(new BMap.Marker(pp));    //添加标注
+        }
+        var local = new BMap.LocalSearch(map, { //智能搜索
+            onSearchComplete: myFun
+        });
+        local.search(myValue);
+    }
+</script>
+<script>
+    $(document).ready(function () {
+        for(var i=0;i<3;i++){
+            $(".zhaowojia_left_2>div>div:eq(" + i + ")").fadeIn()
+        }
+        if ($(".zhaowojia_left_2>div>div").length <= 3)
+            ;
+        else if ($(".zhaowojia_left_2>div>div").length > 3 && $(".zhaowojia_left_2>div>div").length <= 6)
+        {
+            $(".zhaowojia_left_2").append("  <nav class='zhaowojia_fenye' id='zhaowojia_fenye_50'><span>第一页</span><span>第二页</span></nav>");
+        }
+        else if ($(".zhaowojia_left_2>div>div").length > 6 && $(".zhaowojia_left_2>div>div").length <= 9)
+        {
+            $(".zhaowojia_left_2").append("  <nav class='zhaowojia_fenye'><span>第一页</span><span>第二页</span><span>第三页</span> </nav>");
+        }
+        else {
+            alert("太多啦");
+        }
+
+
+        $(".zhaowojia_fenye>span").click(function () {
+            var a = $(this).index();
+            $(".zhaowojia_left_2>div>div").fadeOut();
+            setTimeout(
+              function () {
+                  for (var i = a * 3; i < a * 3 + 3; i++) {
+                      $(".zhaowojia_left_2>div>div:eq(" + i + ")").fadeIn()
+                  }
+              }, 500);
+        })
+    });
+</script>

@@ -1,0 +1,288 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my_css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/yxMobileSlider.js"></script>
+    <script src="js/yxMobileSlider1.js"></script>
+    <script src="js/yxMobileSlider2.js"></script>
+
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid index_top p0">
+        <div class="container">
+            <div class="col-md-6 col-sm-6 col-xs-6 p0">
+                <a href="#" class="ben_city">福州</a>&nbsp;
+                <span>[切换城市 <a href="#">莆田</a> <a href="#">莆田</a>]</span>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 p0" style="height:30px;">
+                <nav class="top_2_right">
+                    <a href="denglu.html">登录</a>
+                    <a href="zhuce.html">注册</a>
+                    <a href="#">商家入驻</a>
+                    <a href="denglu.html" class="bor-none" style="padding-right:0px;">商家登录</a>
+                </nav>
+                <a href="#" class="index_lianxi">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top1 p0">
+        <div class="container">
+            <div class="col-md-5 col-sm-5  col-xs-5 p0">
+                <a class="top1_gg" href="index.html">家在中国</a>
+            </div>
+            <div class="col-md-7 col-sm-7 col-xs-7 p0">
+                <nav class="top_1_nav">
+                    <a href="#" class="top_1_nav_xz">首页</a>
+                    <a href="woyao_zhuangxiu.html">我要装修</a>
+                    <a href="xiaoqu_anli.html">案例</a>
+                    <a href="zhuangxgs_liebiao.html">找装修公司</a>
+                    <a href="shifu_liebiao.html">找施工师傅</a>
+                    <a href="shejishi_liebiao.html">找设计师</a>
+                    <a href="zhaowojia.html">找我家</a>
+                    <a href="zixun_liebiao.html">装修必知</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top2 m-20 p0">
+        <div class="container">
+            <div class="col-md-7 col-sm-7 col-xs-7 p0">
+                <img src="images/top_3_guangg.png" class="top2_gg" />
+            </div>
+            <div class="col-sm-5 col-sm-5 col-xs-5 p0">
+                <div class="right text1" style="height:35px;">
+                    <img src="images/suosou.png" class="left" style="margin-right:0px;width: 9%;height:31px;width:35px;" />
+                    <input type="text" class="input1" placeholder="请输入品牌或商品名称进行搜索" />
+                    <input type="button" class="input2" value="搜 索" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p0 m-20">
+        <div class="container shifu_lb_index">
+            <div class="some_biaoti">
+                <p>我要装修</p>
+                <img src="images/wo_shi_xian.png" />
+            </div>
+            <div class="wy_zhuangx_top">
+                <div class="col-sm-4 col-md-4 col-xs-4 wy_zhuangx_top1">
+                    <b class="wyzx_tubiao">
+                    </b>
+                    <div>
+                        <label>免费发布招标</label>
+                        <p>您在线提交的装修需求，需求越明确，设计方案就越有针对性</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-xs-4 wy_zhuangx_top2">
+                    <b class="wyzx_tubiao">
+                    </b>
+                    <div>
+                        <label>装修公司竞标</label>
+                        <p>多家优质装修公司通过为您提供装修方案竞标</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-xs-4 wy_zhuangx_top3">
+                    <b class="wyzx_tubiao">
+                    </b>
+                    <div>
+                        <label>选择装修公司</label>
+                        <p>通过方案PK,选择您最满意的公司合作，如果不满意，您可以重新寻找</p>
+                    </div>
+                </div>
+            </div>
+            <div class="woyao_xz_index">
+                <div class="col-md-8 col-sm-8 col-xs-8">
+                    <div>
+                        <p>我的称呼</p>
+                        <input type="text" autofocus />
+                    </div>
+                    <div>
+                        <p>我的手机</p>
+                        <input type="text" />
+                    </div>
+                    <div class="wyzx_city">
+                        <p>所在区域</p>
+                        <select>
+                            <option>请您选择</option>
+                            <option>上海</option>
+                        </select>
+                        <select>
+                            <option>请您选择</option>
+                            <option>上海</option>
+                        </select>
+                        <select>
+                            <option>请您选择</option>
+                            <option>上海</option>
+                        </select>
+                        <span>（平方米）</span>
+                    </div>
+                    <div>
+                        <p>所在小区</p>
+                        <input type="text" id="suozai_xiaqu"/>
+                    </div>
+                    <div>
+                        <p>装修户型</p>
+                        <input type="radio" name="zx_lex" /><span>一居室</span>
+                        <input type="radio" name="zx_lex" /><span>二居室</span>
+                        <input type="radio" name="zx_lex" /><span>三居室</span>
+                        <input type="radio" name="zx_lex" /><span>其他</span><span>（平方米）</span>
+                    </div>
+                    <div>
+                        <p>您有邮箱</p>
+                        <input type="text" />
+                    </div>
+                    <div class="wyzx_duan_inpu">
+                        <p>建筑面积</p>
+                        <input type="text" /><span>（平方米）</span>
+                    </div>
+                    <div>
+                        <p>预算区间</p>
+                        <select style="width:350px;">
+                            <option>2万以下</option>
+                            <option>2-5万</option>
+                            <option>5-10万</option>
+                            <option>10-20万</option>
+                            <option>20-30万</option>
+                            <option>30万以上</option>
+                        </select>
+                        <span>（平方米）</span>
+                    </div>
+                    <div>
+                        <p>获得方案</p>
+                        <select style="width:350px;">
+                            <option>2套</option>
+                            <option selected>3套</option>
+                            <option>4套</option>
+                            <option>5套</option>
+                        </select>
+                        <span>（平方米）</span>
+                    </div>
+                    <div>
+                        <p style="vertical-align:top">具体内容</p>
+                        <textarea placeholder="您可以写明您对装修风格、报价等装修要求，方便公司为您提供更好的服务"></textarea>
+                    </div>
+                    <div>
+                        <button class="btn_quan" style="width:200px;margin-left:68px;">提交</button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class=" index_neir3_3 index_fabu_lianxi" style="height:250px;margin-top:15px;">
+                        <p class="index_biaoti_hong text-center" style="">极速发布</p>
+                        <p style="margin:0px;text-align:left;color:#ff0000">账号密码错误</p>
+                        <input placeholder=" 填写姓名" style="margin-top:25px;" />
+                        <input placeholder=" 联系电话" />
+                        <button>发布</button>
+                    </div>
+                    <div id="scrollDiv" style="border:1px #ccc solid;height:293px;" class="index_neir1_3 m-20 p0">
+                        <ul>
+                            <li><a href="#">王先生<span>发布信息</span></a></li>
+                            <li><a href="#">王先生<span>发布信息</span></a></li>
+                            <li><a href="#">王先生<span>发布信息</span></a></li>
+                            <li><a href="#">王先生<span>发布信息</span></a></li>
+                            <li><a href="#">王先生<span>发布信息</span></a></li>
+                            <li><a href="#">王先生<span>发布信息</span></a></li>
+                            <li><a href="#">王先生<span>发布信息</span></a></li>
+                            <li><a href="#">王先生<span>发布信息</span></a></li>
+                            <li><a href="#">王先生<span>发布信息</span></a></li>
+                            <li><a href="#">王先生<span>发布信息</span></a></li>
+                            <li><a href="#">王先生<span>发布信息</span></a></li>
+                            <li><a href="#">王先生<span>发布信息</span></a></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div  id="ditu_zhuangxiu">
+
+    </div>
+    <div class="container-fluid index_button">
+        <div class="container">
+            <p><a href="#">关于我们</a> | <a href="#">加入我们</a> | <a href="#">加入我们</a> 隐私政策</p>
+            <p>地址:福州大床长4侧面和 总计:0591-98412361 QQ:987532195</p>
+            <p>266-3015 dsakasd.con AOO RIGhtS REASD 闽ICP备120052161号-2</p>
+
+        </div>
+    </div>
+    <script>
+        $("#btn_send_code").click(function () {
+            var a = 2;
+            $("#btn_send_code").attr("disabled", "disabled");
+
+            var mytime = setInterval(function () {
+                getTime();
+            }, 1000);
+            function getTime() {
+                if (a == 0) {
+                    $("#btn_send_code").attr("disabled", "");
+                    $("#btn_send_code").text("获取手机验证码");
+                    clearInterval(mytime);
+                }
+                else {
+                    a -= 1;
+                    $("#btn_send_code").text("重新发送（" + a + "）");
+                }
+            }
+            //点击代码
+            var mobile = $("#mobile").val();
+            if (mobile == "") {
+                alert('请填入手机号码！');
+                return;
+            }
+            $.ajax({
+                url: '/Register/Sent_Msg',
+                data: { 'mobile': mobile },
+                dataType: 'json',
+                type: 'post',
+                success: function (data) {
+                    if (data == true) {
+                    }
+                }
+            });
+            btn_timeout();
+        });
+        // 上下滚动
+        function AutoScroll(obj) {
+            $(obj).find("ul:first").animate({
+                marginTop: "-25px"
+            },
+            500,
+            function () {
+                $(this).css({
+                    marginTop: "0px"
+                }).find("li:first").appendTo(this);
+            });
+        }
+        $(document).ready(function () {
+            var myar = setInterval('AutoScroll("#scrollDiv")', 1000);
+            $("#scrollDiv").hover(function () {
+                clearInterval(myar);
+            },
+            function () {
+                myar = setInterval('AutoScroll("#scrollDiv")', 1000)
+            }); //当鼠标放上去的时候，滚动停止，鼠标离开的时候滚动开始
+        });
+        //滚到代码结束
+        $("#suozai_xiaqu").focus(function () {
+            setTimeout(
+               function () {
+                   $("#ditu_zhuangxiu").fadeIn();
+               }, 300);
+        });
+        $("body").click(function () {
+            if ($("#ditu_zhuangxiu").css("display") == "block")
+                $("#ditu_zhuangxiu").css("display","none") 
+            ;
+        });
+    </script>
+</body>
+</html>

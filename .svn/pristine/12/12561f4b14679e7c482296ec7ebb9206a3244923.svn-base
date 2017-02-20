@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my_css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid index_top p0">
+        <div class="container">
+            <div class="col-md-6 col-sm-6 col-xs-6 p0">
+                <a href="#" class="ben_city">福州</a>&nbsp;
+                <span>[切换城市 <a href="#">莆田</a> <a href="#">莆田</a>]</span>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 p0" style="height:30px;">
+                <nav class="top_2_right">
+                    <a href="denglu.html">登录</a>
+                    <a href="zhuce.html">注册</a>
+                    <a href="#">商家入驻</a>
+                    <a href="denglu.html" class="bor-none" style="padding-right:0px;">商家登录</a>
+                </nav>
+                <a href="#" class="index_lianxi">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top1 p0">
+        <div class="container">
+            <div class="col-md-5 col-sm-5 col-xs-5 p0">
+                <a class="top1_gg" href="index.html">家在中国</a>
+            </div>
+            <div class="col-md-7 col-sm-7 col-xs-7 p0">
+                <nav class="top_1_nav">
+                    <a href="#" class="top_1_nav_xz">首页</a>
+                    <a href="woyao_zhuangxiu.html">我要装修</a>
+                    <a href="xiaoqu_anli.html">案例</a>
+                    <a href="zhuangxgs_liebiao.html">找装修公司</a>
+                    <a href="shifu_liebiao.html">找施工师傅</a>
+                    <a href="shejishi_liebiao.html">找设计师</a>
+                    <a href="zhaowojia.html">找我家</a>
+                    <a href="zixun_liebiao.html">装修必知</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top2 m-20 p0">
+        <div class="container">
+            <div class="col-md-7 col-sm-7 col-xs-7 p0">
+                <img src="images/top_3_guangg.png" class="top2_gg" />
+            </div>
+            <div class="col-sm-5 col-sm-5 col-xs-5 p0">
+                <div class="right text1" style="height:35px;">
+                    <img src="images/suosou.png" class="left" style="margin-right:0px;width: 9%;height:31px;width:35px;" />
+                    <input type="text" class="input1" placeholder="请输入品牌或商品名称进行搜索" />
+                    <input type="button" class="input2" value="搜 索" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p0 m-20">
+        <div class="container">
+            <div class="lunt_xq_index bor-quan">
+                <div>
+                    <p>主题：【冬日暖锋，情牵地中海】by 警员萨克的经历，主队~<button class="btn_quan">发表新帖</button></p>
+                </div>
+                <div class="lunt_xq_index_nr">
+                    <div class="col-md-2 col-sm-2 col-xs-2 p0 text-center lt_sq_tx">
+                        <div><img src="images/04.jpg" /></div>
+                        <p>积极好少年</p>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-10 p0" id="lt_sq_nr" style="border-left:1px #ccc solid;">
+                        <div>
+                            <p class="text-right">1楼</p>
+                            <label>【施工队长】:<span>主队</span></label>
+                            <p>上海这个地方，说是寸金寸土真不为过。</p>
+                            <p>眼睁睁半年时间，房间普遍火箭一般涨了50W上去，作为省吃俭用滴穷苦大众，欧终于不淡定了～</p>
+                            <p>想想工作5年龄，也算是个捂紧荷包蛋孩子，存的积蓄还抵不上这半年的水花，心里百感交集。。。</p>
+                        </div>
+                        <div class="sp_index_huifu">
+                            <img src="images/huifu.png" style="margin-right:10px;" /><a href="javascript:void(0);" class="huifu" data-data="0">回复</a><span class="right">发表于 2014-06-05 15:36</span>
+                        </div>
+                        <div class="yinc_huifu">
+                            <div class="hf_nr">
+                                <ul class="huifu_mr" data-li="0"></ul>
+                            </div>
+
+                            <div class="shuchu">
+                                <input />
+                                <button>发表</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lunt_xq_index_nr">
+                    <div class="col-md-2 col-sm-2 col-xs-2 p0 text-center lt_sq_tx">
+                        <div><img src="images/04.jpg" /></div>
+                        <p>积极好少年</p>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-10 p0" id="lt_sq_nr" style="border-left:1px #ccc solid;">
+                        <div>
+                            <p class="text-right">1楼</p>
+                            <label>【施工队长】:<span>主队</span></label>
+                            <p>上海这个地方，说是寸金寸土真不为过。</p>
+                            <p>眼睁睁半年时间，房间普遍火箭一般涨了50W上去，作为省吃俭用滴穷苦大众，欧终于不淡定了～</p>
+                            <p>想想工作5年龄，也算是个捂紧荷包蛋孩子，存的积蓄还抵不上这半年的水花，心里百感交集。。。</p>
+                        </div>
+                        <div class="sp_index_huifu">
+                            <img src="images/huifu.png" style="margin-right:10px;" /><a href="javascript:void(0);" class="huifu " data-data="0">回复(1)</a><span class="right">发表于 2014-06-05 15:36</span>
+                        </div>
+                        <div class="yinc_huifu">
+                            <div class="hf_nr">
+                                <ul class="huifu_mr" data-li="0">
+                                    <li>
+                                        <div>
+                                            <img src="images/04.jpg" />
+                                        </div>
+                                        <div>
+                                            <p style="padding:0px 5px;">
+                                                <a href="#" class="lan_a">八戒，我是师傅:</a>
+                                                <span style="width:100%;">女侠，这装修真给力!女侠，这装修真给力!女侠，这装修真给力!女侠，这装修真给力!女侠，这装修真给力!女侠，这装修真给力!女侠，这装修真给力!女侠，这装修真给力!女侠，这装修真给力!女侠，这装修真给力!</span>
+                                            </p>
+                                            <p class="text-right">
+                                                2015-6-15<a href="javascript:void(0);" style="margin-left:10px;" class="qiangzhi_huifu">回复</a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/04.jpg" />
+                                        </div>
+                                        <div>
+                                            <p style="padding:0px 5px;">
+                                                <a href="#" class="lan_a">沙僧，我是师傅:</a>
+                                                <span style="width:100%;">女侠，这装修真给力!女侠，这装修真给力!女侠，这装修真给力!女侠，这装修真给力!女侠，这装修真给力!女侠，这装修真给力!女侠，这装修真给力!女侠，这装修真给力!女侠，这装修真给力!女侠，这装修真给力!</span>
+                                            </p>
+                                            <p class="text-right">
+                                                2015-6-15<a href="javascript:void(0);" style="margin-left:10px;" class="qiangzhi_huifu">回复</a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div>
+                                    <nav class="text-center">
+                                        <ul class="pagination">
+                                            <li>
+                                                <a href="#" aria-label="Previous">
+                                                    <span aria-hidden="true">&laquo;</span>
+                                                </a>
+                                            </li>
+                                            <li><a href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            <li><a href="#">3</a></li>
+                                            <li><a href="#">4</a></li>
+                                            <li><a href="#">5</a></li>
+                                            <li>
+                                                <a href="#" aria-label="Next">
+                                                    <span aria-hidden="true">&raquo;</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="shuchu">
+                                <input />
+                                <button>发表</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <nav>
+                <ul class="pagination">
+                    <li><a href="#">返回列表</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <script>
+        $(".huifu").each(function () {
+            var tiao = $(this).parent().parent().find(".huifu_mr li").length;
+            if (tiao == 0) {
+                $(this).text("回复");
+                return;
+            }
+            $(this).text("回复(" + tiao + ")");
+        })
+        $(".huifu").click(function () {
+            $(this).parent().parent().find(".yinc_huifu").slideToggle();
+            var num = $(this).attr("data-data");
+            if (num == 0) {
+                $(this).text("收起回复");
+                $(this).attr("data-data", "1");
+                $(this).parent().parent().find(".shuchu>input").focus();
+            }
+            else if (num == 1) {
+                var tiao = $(this).parent().parent().find(".huifu_mr li").length;
+                $(this).text("回复("+tiao+")");
+                $(this).attr("data-data","0");
+            }
+        });
+        $(".qiangzhi_huifu").click(function () {
+            var user_name = $(this).parent().parent().find(".lan_a").text();
+            $(this).parent().parent().parent().parent().parent().parent().parent().find(".shuchu>input").val("回复 "+user_name);
+            var a = $(this).parent().parent().parent().parent().parent().parent().parent().find(".shuchu>input").val();
+            $(this).parent().parent().parent().parent().parent().parent().parent().find(".shuchu>input").focus();
+        })
+    </script>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="bor-quan ltxq_fb">
+                <div class="col-md-2 col-sm-2 col-xs-2 text-center">
+                    <p>大王叫我来巡山</p>
+                    <div>
+                        <img src="images/02.jpg" />
+                    </div>
+                </div>
+                <div class="con-md-10 col-xs-10 col-sm-10">
+                    <div>
+
+                    </div>
+                    <p class="text-right">
+                        <input type="checkbox" />
+                        <span>回帖后跳转到最后一页</span>
+                        <button>回复</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_button">
+        <div class="container">
+            <p><a href="#">关于我们</a> | <a href="#">加入我们</a> | <a href="#">加入我们</a> 隐私政策</p>
+            <p>地址:福州大床长4侧面和 总计:0591-98412361 QQ:987532195</p>
+            <p>266-3015 dsakasd.con AOO RIGhtS REASD 闽ICP备120052161号-2</p>
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my_css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid index_top p0">
+        <div class="container">
+            <div class="col-md-6 col-sm-6  col-xs-6 p0">
+                <a href="#" class="ben_city">福州</a>&nbsp;
+                <span>[切换城市 <a href="#">莆田</a> <a href="#">莆田</a>]</span>
+            </div>
+            <div class="col-md-6 col-sm-6  col-xs-6 p0" style="height:30px;">
+                <nav class="top_2_right">
+                    <a href="#">登录</a>
+                    <a href="#">注册</a>
+                    <a href="#">商家入驻</a>
+                    <a href="#" class="bor-none" style="padding-right:0px;">商家登录</a>
+                </nav>
+                <a href="#" class="index_lianxi">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top1 p0">
+        <div class="container">
+            <div class="col-md-5 col-sm-5  col-xs-5 p0">
+                <a class="top1_gg" href="index.html">家在中国</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid  denglu_index m-20">
+        <div class="container">
+            <div class="col-md-7 col-sm-7  col-xs-7">
+
+            </div>
+            <div class="col-md-5 col-sm-5  col-xs-5 denglu_index_bt">
+                <div class="denglu_index_1">
+                    <nav>
+                        <span class="dl_xz" data-data="1">个人用户</span>
+                        <span data-data="2">企业用户</span>
+                    </nav>
+                    <div class="denglu_index_1_1">
+                        <div id="dl_1">
+                            <label>用户名</label>
+                            <div>
+                                <input autofocus tabindex="1" id="dl_11" />
+                                <span class="glyphicon glyphicon-user">  </span>
+                            </div>
+                            <label>密码<span class="right"><a href="wangji_mima_1.html">忘记密码?</a></span></label>
+                            <div>
+                                <input tabindex="2" />
+                                <span class="glyphicon glyphicon-lock"></span>
+                            </div>
+                            <p>还没帐号，<span><a href="zhuce.html">立即注册</a></span></p>
+                            <button class="btn_quan dl_btn_1">立即登录</button>
+                        </div>
+                        <div id="dl_2">
+                            <label>企业账号</label>
+                            <div>
+                                <input tabindex="3" id="dl_21" />
+                                <span class="glyphicon glyphicon-user">  </span>
+                            </div>
+                            <label>密码<span class="right"><a href="#">忘记密码?</a></span></label>
+                            <div>
+                                <input tabindex="4" />
+                                <span class="glyphicon glyphicon-lock"></span>
+                            </div>
+                            <p>还没帐号，<span><a href="zhuce.html">立即注册</a></span></p>
+                            <button class="btn_quan dl_btn_1">立即登录</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_button" style="margin-top:90px;">
+        <div class="container">
+            <p><a href="#">关于我们</a> | <a href="#">加入我们</a> | <a href="#">加入我们</a> 隐私政策</p>
+            <p>地址:福州大床长4侧面和 总计:0591-98412361 QQ:987532195</p>
+            <p>266-3015 dsakasd.con AOO RIGhtS REASD 闽ICP备120052161号-2</p>
+
+        </div>
+    </div>
+
+    <div class="xuanfu_dizhu container">
+        <div class="container">
+            <div class="col-xs-8 col-sm-8 col-md-8">
+                <label>足不出户，3家装修公司免费服务上门，比方案、比价格、比服务！</label>
+                <p>精选本地妆续公司，有信誉、有口碑、有保障！<span class="right">家之嘱咐，定当不负</span></p>
+            </div>
+            <div class="con-xs-4 col-sm-4 col-md-4">
+                <span class="glyphicon glyphicon-remove">
+                </span>
+                <button class="btn_quan">立即申请</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $("#dl_2").hide();
+        $(".denglu_index_1>nav>span").click(function () {
+            var biaoji = $(this).attr("data-data");
+            $(".denglu_index_1_1>div").hide();
+            $("#dl_" + biaoji + "").show();
+            $("#dl_" + biaoji + "1").focus();
+            $(".denglu_index_1>nav>span").attr("class", "");
+            $(this).attr("class", "dl_xz");
+           
+        })
+
+        $("#btn_send_code").click(function () {
+            var a = 3;
+            $("#btn_send_code").attr("disabled", "disabled");
+
+            var mytime = setInterval(function () {
+                getTime();
+            }, 1000);
+            function getTime() {
+                if (a == 0) {
+                    $("#btn_send_code").prop("disabled",false);
+                    $("#btn_send_code").text("获取验证码");
+                    clearInterval(mytime);
+                }
+                else {
+                    a -= 1;
+                    $("#btn_send_code").text("重新发送（" + a + "）");
+                }
+            }
+            //点击代码
+            var mobile = $("#mobile").val();
+            if (mobile == "") {
+                alert('请填入手机号码！');
+                return;
+            }
+            $.ajax({
+                url: '/Register/Sent_Msg',
+                data: { 'mobile': mobile },
+                dataType: 'json',
+                type: 'post',
+                success: function (data) {
+                    if (data == true) {
+                    }
+                }
+            });
+            btn_timeout();
+        });
+    </script>
+</body>
+</html>

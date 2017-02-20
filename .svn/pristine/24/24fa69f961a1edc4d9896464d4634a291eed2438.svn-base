@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my_css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid index_top p0">
+        <div class="container">
+            <div class="col-md-6 col-sm-6 p0">
+                <a href="#" class="ben_city">福州</a>&nbsp;
+                <span>[切换城市 <a href="#">莆田</a> <a href="#">莆田</a>]</span>
+            </div>
+            <div class="col-md-6 col-sm-6 p0" style="height:30px;">
+                <nav class="top_2_right">
+                    <a href="#">登录</a>
+                    <a href="#">注册</a>
+                    <a href="#">商家入驻</a>
+                    <a href="#" class="bor-none" style="padding-right:0px;">商家登录</a>
+                </nav>
+                <a href="#" class="index_lianxi">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top1 p0">
+        <div class="container">
+            <div class="col-md-5 col-sm-5 p0">
+                <a class="top1_gg" href="index.html">家在中国</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid  m-20">
+        <div class="container">
+            <label>找回密码</label>
+            <div class="zhmm_zong">
+                <div class="text-center">
+                    <img src="images/zhmm2.png" />
+                </div>
+                <div class="zhmm_2_index">
+                    <div>
+                        <label>请输入新密码：</label><input autofocus /><span>6-20个字符，不包含空格</span>
+                    </div>
+                    <div>
+                        <label>再次输入新密码：</label><input /><span>请再次输入密码</span>
+                    </div>
+                    <button class="btn_quan" id="go_zhmm_3">下一步</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_button">
+        <div class="container">
+            <p><a href="#">关于我们</a> | <a href="#">加入我们</a> | <a href="#">加入我们</a> 隐私政策</p>
+            <p>地址:福州大床长4侧面和 总计:0591-98412361 QQ:987532195</p>
+            <p>266-3015 dsakasd.con AOO RIGhtS REASD 闽ICP备120052161号-2</p>
+
+        </div>
+    </div>
+    <script>
+        $("#go_zhmm_3").click(function () {
+            location.href = "wangji_mima_3.html";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>JS跳转到页面顶部带QQ客服_懒人建站 http://www.51xuediannao.com</title>
+    <meta name="keywords" content="HTML+CSS模板,HTML+CSS教程,HTML+CSS导航菜单,FLSH焦点图,网页
+特效" />
+    <meta name="description" content="懒人建站为您提供-HTML+CSS模板，HTML+CSS教程，JS广告代码
+，HTML+CSS导航菜单，FLSH焦点图片，国外网页设计欣赏与模板和CSS技巧。" />
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            font-size: 10pt;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+        .tiaozhuan {
+            border: 1px solid #CCC;
+            padding: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div style="height:1500px"></div>
+    <script>
+
+lastScrollY=0;
+function heartBeat(){
+
+}
+suspendcode="<div id=\"full\" style='right:15px;POSITION:absolute;TOP:150px;z-index:100' class=tiaozhuan><a href='#Top'>返回顶部</a><br><a href='tencent://message/?uin=271667446&Menu=yes'>QQ客服</a><br><a href='mailto:admin@126.com'>E-Mail</a><br><a href='#No'>MSN</a></div>"
+document.write(suspendcode);
+window.setInterval("heartBeat()",1);
+    </script>
+
+
+
+
+    <!--下面只是说明与程序代码无关-->
+  
+</body>
+</html>

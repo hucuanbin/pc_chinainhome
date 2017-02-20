@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my_css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/yxMobileSlider.js"></script>
+    <script src="js/yxMobileSlider1.js"></script>
+    <script src="js/yxMobileSlider2.js"></script>
+
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid index_top p0">
+        <div class="container">
+            <div class="col-md-6 col-sm-6 p0">
+                <a href="#" class="ben_city">福州</a>&nbsp;
+                <span>[切换城市 <a href="#">莆田</a> <a href="#">莆田</a>]</span>
+            </div>
+            <div class="col-md-6 col-sm-6 p0" style="height:30px;">
+                <nav class="top_2_right">
+                    <a href="denglu.html">登录</a>
+                    <a href="zhuce.html">注册</a>
+                    <a href="#">商家入驻</a>
+                    <a href="denglu.html" class="bor-none" style="padding-right:0px;">商家登录</a>
+                </nav>
+                <a href="#" class="index_lianxi">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top1 p0">
+        <div class="container">
+            <div class="col-md-5 col-sm-5 p0">
+                <a class="top1_gg" href="index.html">家在中国</a>
+            </div>
+            <div class="col-md-7 col-sm-7 p0">
+                <nav class="top_1_nav">
+                    <a href="#">首页</a>
+                    <a href="#" class="top_1_nav_xz">我要装修</a>
+                    <a href="#">案例</a>
+                    <a href="#">找装修公司</a>
+                    <a href="#">找施工师傅</a>
+                    <a href="#">找设计师</a>
+                    <a href="#">找我家</a>
+                    <a href="#">装修必知</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top2 m-20 p0">
+        <div class="container">
+            <div class="col-md-7 col-sm-7 p0">
+                <img src="images/top_3_guangg.png" class="top2_gg" />
+            </div>
+            <div class="col-sm-5 col-sm-5 p0">
+                <div class="right text1" style="height:35px;">
+                    <img src="images/suosou.png" class="left" style="margin-right:0px;width: 9%;height:31px;width:35px;" />
+                    <input type="text" class="input1" placeholder="请输入品牌或商品名称进行搜索" />
+                    <input type="button" class="input2" value="搜 索" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p0 m-20">
+        <div class="container">
+            <div class="some_biaoti" style="margin-bottom:20px;">
+                <p>泡泡卡车精品套房<span class="some_biaoti_span">开放时间:2015/06/12至2115/06/12</span></p>
+                <img src="images/wo_shi_xian.png" />
+            </div>
+            <div class="col-sm-9 col-md-9 p-l0 yuyue_index">
+                <div>
+                    <img src="images/index_anli_1.png" />
+                </div>
+                <div>
+                    <img src="images/index_anli_1.png" />
+                </div>
+                <div>
+                    <img src="images/index_anli_1.png" />
+                </div>
+                <div>
+                    <img src="images/index_anli_1.png" />
+                </div>
+                <div>
+                    <img src="images/index_anli_1.png" />
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3 p0">
+                <div class="zuixin_anli_top_right" style="height:auto">
+                    <p class="sheji_top">工长 <span><a href="#" data-toggle="modal" data-target="#myModal" style="outline:none">免费预约</a></span></p>
+                    <img src="images/06.jpg" />
+                    <div>
+                        <p><span class="zuxin_name">李小林</span><span class="right">已有<b style="color:#d40000">2</b>人预约</span></p>
+                        <p style="overflow:auto;"><span class="left">风格：现代简约</span><span class="right">户型：三居</span></p>
+                        <p><span class="al_span">预算：13万元</span></p>
+                        <p style="letter-spacing:1px;">
+                            设计说明：巴拉巴巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="some_biaoti">
+                        <p style="margin-top:0px !important;">装修进度条</p>
+                        <img src="images/wo_shi_xian2.png" />
+                    </div>
+                    <div class="jindu_tiao2 jdt">
+                        <div class="jindu_tiao">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  anq-sz-jymm" style="min-width:550px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <label class="modal-title" id="myModalLabel">为了方便联系，请填写您的信息</label>
+                </div>
+                <div class="modal-body shejishi_yuyue" style="OVERFLOW-Y:auto;OVERFLOW-X:hidden;">
+                    <div class="col-ms-6 col-sm-6">
+                        <div>
+                            <p>我的称呼</p>
+                            <input />
+                        </div>
+                        <div>
+                            <p>我的手机</p>
+                            <input />
+                        </div>
+                        <div>
+                            <p>验证码</p>
+                            <input />
+                        </div>
+                        <div>
+                            <p>所在城市</p>
+                            <select>
+                                <option>请您选择</option>
+                                <option>上海</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p>所在小区</p>
+                            <input />
+                        </div>
+                        <div>
+                            <p>建筑面积（平方米）</p>
+                            <input />
+                        </div>
+                    </div>
+                    <div class="col-ms-6 col-sm-6">
+                        <div>
+                            <p></p>
+                            <select>
+                                <option>女士</option>
+                                <option>先生</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p>您有邮箱</p>
+                            <input />
+                        </div>
+                        <div>
+                            <p></p>
+                            <button id="btn_send_code">获取手机验证码</button>
+                        </div>
+                        <div>
+                            <p>装修户型</p>
+                            <select>
+                                <option>请您选择</option>
+                                <option>一居室</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p>装修风格</p>
+                            <select>
+                                <option>请您选择</option>
+                                <option>一居室</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p>装修预算(元)</p>
+                            <input />
+                        </div>
+                    </div>
+                </div>
+                <div class="yuyue_xz">
+                    <input type="checkbox" />
+                    <p>将此方案同时发布给其他世界是，功过方案PK，选择您最满意的方案</p>
+                </div>
+                <div class="modal-footer" style="text-align:center">
+                    <button type="button" data-dismiss="modal" class="bc-3B9BFF zc-button">
+                        提交
+                    </button>
+                    <button type="button" data-dismiss="modal" class="bc-3B9BFF zc-button" style="background:#DDDDDD;color:#999999">
+                        取消
+                    </button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="container-fluid index_button">
+        <div class="container">
+            <p><a href="#">关于我们</a> | <a href="#">加入我们</a> | <a href="#">加入我们</a> 隐私政策</p>
+            <p>地址:福州大床长4侧面和 总计:0591-98412361 QQ:987532195</p>
+            <p>266-3015 dsakasd.con AOO RIGhtS REASD 闽ICP备120052161号-2</p>
+
+        </div>
+    </div>
+</body>
+</html>

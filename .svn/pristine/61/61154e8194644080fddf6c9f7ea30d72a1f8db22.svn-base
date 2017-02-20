@@ -1,0 +1,270 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my_css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/yxMobileSlider.js"></script>
+    <script src="js/yxMobileSlider1.js"></script>
+    <script src="js/yxMobileSlider2.js"></script>
+
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid index_top p0">
+        <div class="container">
+            <div class="col-md-6 col-sm-6 p0">
+                <a href="#" class="ben_city">福州</a>&nbsp;
+                <span>[切换城市 <a href="#">莆田</a> <a href="#">莆田</a>]</span>
+            </div>
+            <div class="col-md-6 col-sm-6 p0" style="height:30px;">
+                <nav class="top_2_right">
+                    <a href="denglu.html">登录</a>
+                    <a href="zhuce.html">注册</a>
+                    <a href="#">商家入驻</a>
+                    <a href="denglu.html" class="bor-none" style="padding-right:0px;">商家登录</a>
+                </nav>
+                <a href="#" class="index_lianxi">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top1 p0">
+        <div class="container">
+            <div class="col-md-5 col-sm-5 p0">
+                <a class="top1_gg" href="index.html">家在中国</a>
+            </div>
+            <div class="col-md-7 col-sm-7 p0">
+                <nav class="top_1_nav">
+                    <a href="#">首页</a>
+                    <a href="#">我要装修</a>
+                    <a href="#" class="top_1_nav_xz">案例</a>
+                    <a href="#">找装修公司</a>
+                    <a href="#">找施工师傅</a>
+                    <a href="#">找设计师</a>
+                    <a href="#">找我家</a>
+                    <a href="#">装修必知</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top2 m-20 p0">
+        <div class="container">
+            <div class="col-md-7 col-sm-7 p0">
+                <img src="images/top_3_guangg.png" class="top2_gg" />
+            </div>
+            <div class="col-sm-5 col-sm-5 p0">
+                <div class="right text1" style="height:35px;">
+                    <img src="images/suosou.png" class="left" style="margin-right:0px;width: 9%;height:31px;width:35px;" />
+                    <input type="text" class="input1" placeholder="请输入品牌或商品名称进行搜索" />
+                    <input type="button" class="input2" value="搜 索" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p0 m-20">
+        <div class="container xiaoq_al_index_1">
+            <div>
+                <div class="col-md-1 col-sm-1 text-center">
+                    <label>户型</label>
+                </div>
+                <div class="col-md-11 col-sm-11 text-center">
+                    <ul>
+                        <li class="xiaoq_al_index_1_xz"><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="col-md-1 col-sm-1 text-center">
+                    <label>面积</label>
+                </div>
+                <div class="col-md-11 col-sm-11 text-center">
+                    <ul>
+                        <li class="xiaoq_al_index_1_xz"><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="col-md-1 col-sm-1 text-center">
+                    <label>功能</label>
+                </div>
+                <div class="col-md-11 col-sm-11 text-center">
+                    <ul>
+                        <li class="xiaoq_al_index_1_xz"><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                        <li><a>一居室</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p0 m-20">
+        <div class="container xiaoq_al_index_2 p0">
+            <div class="col-md-9 col-sm-9 p0">
+                <div class="some_biaoti">
+                    <p>全部装修样板间<span class="some_biaoti_span">共有<b>32000</b>套装修样板间</span></p>
+                    <img src="images/wo_shi_xian.png" />
+                </div>
+                <div class="an_li_yanb">
+                    <div>
+                        <a href="zuixin_anli.html">
+                            <div class="col-md-7 col-sm-7 p0">
+                                <img src="images/index_anli_1.png" />
+                            </div>
+                            <div class="col-md-5 col-sm-5">
+                                <label>现代简约-89平米二居室</label>
+                                <p><span>楼盘：</span>和敬奉会国际</p>
+                                <p><span>装修样板间风格：</span>现代简约</p>
+                                <p><span>户型：</span>热局势</p>
+                                <p><span>面积：</span>89平米</p>
+                                <p><span>价格：</span>35/半包</p>
+                                <p><span>设计师：</span>隔壁老王</p>
+                                <p><span>所属工资：</span>隔壁老王天天装修设计公司</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <div class="col-md-7 col-sm-7 p0">
+                                <img src="images/index_anli_1.png" />
+                            </div>
+                            <div class="col-md-5 col-sm-5">
+                                <label>现代简约-89平米二居室</label>
+                                <p><span>楼盘：</span>和敬奉会国际</p>
+                                <p><span>装修样板间风格：</span>现代简约</p>
+                                <p><span>户型：</span>热局势</p>
+                                <p><span>面积：</span>89平米</p>
+                                <p><span>价格：</span>35/半包</p>
+                                <p><span>设计师：</span>隔壁老王</p>
+                                <p><span>所属工资：</span>隔壁老王天天装修设计公司</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <div class="col-md-7 col-sm-7 p0">
+                                <img src="images/index_anli_1.png" />
+                            </div>
+                            <div class="col-md-5 col-sm-5">
+                                <label>现代简约-89平米二居室</label>
+                                <p><span>楼盘：</span>和敬奉会国际</p>
+                                <p><span>装修样板间风格：</span>现代简约</p>
+                                <p><span>户型：</span>热局势</p>
+                                <p><span>面积：</span>89平米</p>
+                                <p><span>价格：</span>35/半包</p>
+                                <p><span>设计师：</span>隔壁老王</p>
+                                <p><span>所属工资：</span>隔壁老王天天装修设计公司</p>
+                            </div>
+                        </a>
+                    </div>
+                    <nav style="text-align:center">
+                        <ul class="pagination">
+                            <li>
+                                <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 p-r0 anli_righr">
+                <div style="margin-top:0px !important;">
+                    <div class="some_biaoti">
+                        <p style="margin-top:0px !important;">每日热门案例排行版</p>
+                        <img src="images/wo_shi_xian2.png" />
+                    </div>
+                    <div class="al_right_index">
+                        <p><a>地沟油是什么？装修入住后最好使用地沟油</a></p>
+                        <img src="images/07.png" />
+                    </div>
+                    <p><a href="#">装修业主经验分享，学会七招描边装修达人</a></p>
+                    <p><a href="#">家庭装修水路改造，施工及验收的全部六层</a></p>
+                    <p><a href="#">客厅装修用什么瓷砖 5点选购技巧帮你做选择</a></p>
+                    <p><a href="#">地板有是什么？装修入住够最好使用地板有报</a></p>
+                    <p><a href="#">装修入住后大理石地面的清洁与保养</a></p>
+                </div>
+                <div>
+                    <div class="some_biaoti">
+                        <p>装修公司排行版</p>
+                        <img src="images/wo_shi_xian2.png" />
+                    </div>
+                    <div class="al_right_index">
+                        <label><a href="#">地沟油是什么？装修入住后最好使用地沟油</a></label>
+                        <div class="col-md-6 col-sm-6">
+                            <img src="images/07.png" />
+                        </div>
+                        <div class="col-md-6 col-sm-6" style="padding:5px;">
+                            <p style="letter-spacing:1px">马英九召开“国安高层会议”，决定申请加入亚洲基础设施投资银行</p>
+                        </div>
+                    </div>
+                    <p><a href="#">装修业主经验分享，学会七招描边装修达人</a></p>
+                    <p><a href="#">家庭装修水路改造，施工及验收的全部六层</a></p>
+                    <p><a href="#">客厅装修用什么瓷砖 5点选购技巧帮你做选择</a></p>
+                    <p><a href="#">地板有是什么？装修入住够最好使用地板有报</a></p>
+                    <p><a href="#">装修入住后大理石地面的清洁与保养</a></p>
+                </div>
+                <div>
+                    <div class="some_biaoti">
+                        <p style="margin-top:0px !important;">剪裁特价团购排汗不</p>
+                        <img src="images/wo_shi_xian2.png" />
+                    </div>
+                    <p><a href="#">装修业主经验分享，学会七招描边装修达人</a></p>
+                    <p><a href="#">家庭装修水路改造，施工及验收的全部六层</a></p>
+                    <p><a href="#">客厅装修用什么瓷砖 5点选购技巧帮你做选择</a></p>
+                    <p><a href="#">地板有是什么？装修入住够最好使用地板有报</a></p>
+                    <p><a href="#">装修入住后大理石地面的清洁与保养</a></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid index_button">
+        <div class="container">
+            <p><a href="#">关于我们</a> | <a href="#">加入我们</a> | <a href="#">加入我们</a> 隐私政策</p>
+            <p>地址:福州大床长4侧面和 总计:0591-98412361 QQ:987532195</p>
+            <p>266-3015 dsakasd.con AOO RIGhtS REASD 闽ICP备120052161号-2</p>
+
+        </div>
+    </div>
+    <script>
+        $(".xiaoq_al_index_1 li").click(function () {
+            $(this).siblings("li").attr("class", "");
+            $(this).attr("class", "xiaoq_al_index_1_xz");
+        })
+    </script>
+</body>
+</html>

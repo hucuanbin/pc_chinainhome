@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head >
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link  rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.min.js"></script>
+    <style>
+        .aixin {
+            color: red;
+            font-size: 18px;
+            transition: all 0.2s linear;
+            padding: 200px;
+            margin-top: 150px;
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 30px;
+        }
+
+        #main_content h2 {
+            height: 45px;
+            line-height: 45px;
+            overflow: hidden;
+            border: 1px #ccc solid;
+            /*display: table-cell;  
+            height: 50px;
+            vertical-align: middle;*/
+        }
+    </style>
+</head>
+<body>
+    <div id="divTest">
+        <span>0</span> <span>1</span> <span>2</span> <span>3</span>
+    </div>
+    <div id="divTest2">
+        <span>0</span> <span>1</span> <span>2</span> <span>3</span>
+    </div>
+    <style>
+        .ind li{
+            background:red;display:inline-block;
+            position:absolute;
+        }
+    </style>
+    <ul class="ind">
+        <li>niha</li>
+    </ul>
+    <div style="box-shadow:6px 5px 15px #ff0000;width:90px;height:80px;border:1px solid  #ccc;">
+        dsadsa
+    </div>
+    <script>
+        $(".ind li").hover(function () {  $(this).animate({ top: "282px" }); },
+            function () {    $(this).animate({ top: "60px" }); });
+    </script>
+    <div style="position:relative;padding:30px;">
+        <input size="16" type="text" value="2012-06-15 14:45" readonly class="form_datetime">
+    </div>
+    <script type="text/javascript">
+        $(".form_datetime").datetimepicker({ format: 'yyyy-mm-dd hh:ii' });
+    </script>
+    <b class="aixin">♥</b>
+    <p contenteditable="true">这是一个可编辑的段落。</p>
+    <p draggable="true">这是一个可拖动的段落。</p>
+    <div dropzone="copy">这是一个可拖动2222222</div>
+    <script>
+        $(document).ready(function () {
+            var a = 0;
+            var spans = $("#divTest span");
+            for (var i = 0; i < spans.length; i++) {
+                spans[i].onclick = function () {
+                    alert(i);
+                    alert(a);
+                }
+                a++;
+            }
+            //$("#divTest span").click(function () {
+            //    alert($(this).index());
+            //})
+        });
+        var spans2 = $("#divTest2 span");
+        $(document).ready(function () {
+            for (var i = 0; i < spans2.length; i++) {
+                (function (num) {
+                    spans2[i].onclick = function () {
+                        alert(num);
+                    }
+                })(i);
+            }
+        });
+
+        var a = 1;
+        $(".aixin").hover(function () {
+            if (a == 1) {
+                a = 2;
+                var a4 = setInterval(
+                        function () {
+                            setTimeout(
+                                 function () {
+                                     $(".aixin").css("font-size", "36px");
+                                 }, 0);
+                            setTimeout(
+                                function () {
+                                    $(".aixin").css("font-size", "18px");
+                                }, 200);
+                        }, 450);
+            }
+        })
+    </script>
+</body>
+</html>

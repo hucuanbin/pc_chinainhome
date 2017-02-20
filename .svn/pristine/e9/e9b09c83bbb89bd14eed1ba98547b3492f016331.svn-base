@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my_css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/yxMobileSlider.js"></script>
+    <script src="js/yxMobileSlider1.js"></script>
+    <script src="js/yxMobileSlider2.js"></script>
+
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid index_top p0">
+        <div class="container">
+            <div class="col-md-6 col-sm-6 col-xs-6 p0">
+                <a href="#" class="ben_city">福州</a>&nbsp;
+                <span>[切换城市 <a href="#">莆田</a> <a href="#">莆田</a>]</span>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 p0" style="height:30px;">
+                <nav class="top_2_right">
+                    <a href="denglu.html">登录</a>
+                    <a href="zhuce.html">注册</a>
+                    <a href="#">商家入驻</a>
+                    <a href="denglu.html" class="bor-none" style="padding-right:0px;">商家登录</a>
+                </nav>
+                <a href="#" class="index_lianxi">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top1 p0">
+        <div class="container">
+            <div class="col-md-5 col-sm-5 col-xs-5 p0">
+                <a class="top1_gg" href="index.html">家在中国</a>
+            </div>
+            <div class="col-md-7 col-sm-7 col-xs-7 p0">
+                <nav class="top_1_nav">
+                    <a href="#" class="top_1_nav_xz">首页</a>
+                    <a href="woyao_zhuangxiu.html">我要装修</a>
+                    <a href="xiaoqu_anli.html">案例</a>
+                    <a href="zhuangxgs_liebiao.html">找装修公司</a>
+                    <a href="shifu_liebiao.html">找施工师傅</a>
+                    <a href="shejishi_liebiao.html">找设计师</a>
+                    <a href="zhaowojia.html">找我家</a>
+                    <a href="zixun_liebiao.html">装修必知</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid m-20">
+        <div class="container p0  wode_index">
+            <div class="col-ms-2 col-sm-2 col-xs-2 wode_left">
+                <ul>
+                    <li class="wo_ledt_xz"><a href="wode_index.html">首页</a></li>
+                    <li><a href="wode_zx.html">我的装修</a></li>
+                    <li><a href="wode_sc.html">我的收藏</a></li>
+                    <li><a href="wode_xiaoxi.html">我的消息</a></li>
+                    <li><a href="wode_xx.html">账户设置</a></li>
+                    <li><a href="wode_luntan.html">业主论坛</a></li>
+                </ul>
+            </div>
+            <div class="col-ms-10 col-sm-10 col-xs-10 wode_right p0">
+                <div class="wd_xiaox_rigt_1">
+                    <div class="col-ms-2 col-md-2  col-xs-2">
+                        <img src="images/touxiang.png" class="img-circle" />
+                        <p class="text-center"><a href="wode_xx.html">修改个人信息</a></p>
+                    </div>
+                    <div class="col-ms-10 col-md-10 col-xs-10">
+                        <p><label>用户</label>名：<b style="color:#6AA6FF">大王叫我来巡山</b></p>
+                        <p><label>昵</label>称：<b>加载中国网友</b></p>
+                        <p><label>我的消</label>息：<b style="color:#EC3701">0条</b></p>
+                    </div>
+                </div>
+                <div class="wd_xiaox_rigt_2">
+                    <div class="wode_xx_right_biaot">
+                        <p>装修建材订单</p>
+                    </div>
+                    <div class="wode_xx_right_neir wod_jcdd_index">
+                        <hr style="border:3px #fff solid;margin-bottom:10px;margin-top:0px;" />
+                        <div class="wod_jcdd">
+                            <div>
+                                订单编号：174481872787<span>更新时间：2015-6-1 11:32</span>
+                            </div>
+                            <div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div>
+                                        <a href="#"><img src="images/shoucang.png" /></a>
+                                    </div>
+                                    <div style="position:relative;">
+                                        <p><a href="#">成品衣柜 欧若拉韩式简约小白也推拉门</a></p>
+                                        <p>1688.00元/套</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-4">
+                                    <p><label class="wd_jc_gs">建材公司：</label><a href="#" style="font-size:13px;">巴拉巴拉阿里巴巴旗舰店</a></p>
+                                </div>
+                                <div class="col-md-2 col-sm-2 col-xs-2">
+                                    <p style="line-height:90px;height:90px;font-weight:bold;font-size:14px;text-align:center;"><span class="jb_quan"></span>订单完成</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wod_jcdd">
+                            <div>
+                                订单编号：174481872787<span>更新时间：2015-6-1 11:32</span>
+                            </div>
+                            <div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div>
+                                        <a href="#"><img src="images/shoucang.png" /></a>
+                                    </div>
+                                    <div style="position:relative;">
+                                        <p><a href="#">成品衣柜 欧若拉韩式简约小白也推拉门</a></p>
+                                        <p>1688.00元/套</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-4">
+                                    <p><label class="wd_jc_gs">建材公司：</label><a href="#" style="font-size:13px;">巴拉巴拉阿里巴巴旗舰店</a></p>
+                                </div>
+                                <div class="col-md-2 col-sm-2 col-xs-2">
+                                    <p class="wo_jc_zt"><span class="jb_quan"></span>订单完成</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wod_jcdd">
+                            <div>
+                                订单编号：174481872787<span>更新时间：2015-6-1 11:32</span>
+                            </div>
+                            <div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div>
+                                        <a href="#"><img src="images/shoucang.png" /></a>
+                                    </div>
+                                    <div style="position:relative;">
+                                        <p><a href="#">成品衣柜 欧若拉韩式简约小白也推拉门</a></p>
+                                        <p>1688.00元/套</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-4">
+                                    <p><label class="wd_jc_gs">建材公司：</label><a href="#" style="font-size:13px;">巴拉巴拉阿里巴巴旗舰店</a></p>
+                                </div>
+                                <div class="col-md-2 col-sm-2 col-xs-2">
+                                    <p class="wo_jc_zt"><span class="jb_quan"></span>订单完成</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wod_jcdd">
+                            <div>
+                                订单编号：174481872787<span>更新时间：2015-6-1 11:32</span>
+                            </div>
+                            <div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div>
+                                        <a href="#"><img src="images/shoucang.png" /></a>
+                                    </div>
+                                    <div style="position:relative;">
+                                        <p><a href="#">成品衣柜 欧若拉韩式简约小白也推拉门</a></p>
+                                        <p>1688.00元/套</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-4">
+                                    <p><label class="wd_jc_gs">建材公司：</label><a href="#" style="font-size:13px;">巴拉巴拉阿里巴巴旗舰店</a></p>
+                                </div>
+                                <div class="col-md-2 col-sm-2 col-xs-2">
+                                    <p class="wo_jc_zt"><span class="jb_quan"></span>订单完成</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wod_jcdd">
+                            <div>
+                                订单编号：174481872787<span>更新时间：2015-6-1 11:32</span>
+                            </div>
+                            <div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div>
+                                        <a href="#"><img src="images/shoucang.png" /></a>
+                                    </div>
+                                    <div style="position:relative;">
+                                        <p><a href="#">成品衣柜 欧若拉韩式简约小白也推拉门</a></p>
+                                        <p>1688.00元/套</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-4">
+                                    <p><label class="wd_jc_gs">建材公司：</label><a href="#" style="font-size:13px;">巴拉巴拉阿里巴巴旗舰店</a></p>
+                                </div>
+                                <div class="col-md-2 col-sm-2 col-xs-2">
+                                    <p class="wo_jc_zt"><span class="jb_quan"></span>订单完成</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <nav class="text-center">
+                            <ul class="pagination" style="margin:10px auto;">
+                                <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                                <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li>
+                                    <a href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_button">
+        <div class="container">
+            <p><a href="#">关于我们</a> | <a href="#">加入我们</a> | <a href="#">加入我们</a> 隐私政策</p>
+            <p>地址:福州大床长4侧面和 总计:0591-98412361 QQ:987532195</p>
+            <p>266-3015 dsakasd.con AOO RIGhtS REASD 闽ICP备120052161号-2</p>
+
+        </div>
+    </div>
+
+    <script>
+        $(".shouc_bj").click(function () {
+            var img_src = $(this).parent().siblings("img").attr("src");
+            $(".wdsc_tc").attr("src", img_src);
+        });
+    </script>
+</body>
+</html>

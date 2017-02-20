@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my_css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/yxMobileSlider.js"></script>
+    <script src="js/yxMobileSlider1.js"></script>
+    <script src="js/yxMobileSlider2.js"></script>
+
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid index_top p0">
+        <div class="container">
+            <div class="col-md-6 col-sm-6 col-xs-6 p0">
+                <a href="#" class="ben_city">福州</a>&nbsp;
+                <span>[切换城市 <a href="#">莆田</a> <a href="#">莆田</a>]</span>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 p0" style="height:30px;">
+                <nav class="top_2_right">
+                    <a href="denglu.html">登录</a>
+                    <a href="zhuce.html">注册</a>
+                    <a href="#">商家入驻</a>
+                    <a href="denglu.html" class="bor-none" style="padding-right:0px;">商家登录</a>
+                </nav>
+                <a href="#" class="index_lianxi">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top1 p0">
+        <div class="container">
+            <div class="col-md-5 col-sm-5 col-xs-5 p0">
+                <a class="top1_gg" href="index.html">家在中国</a>
+            </div>
+            <div class="col-md-7 col-sm-7 col-xs-7 p0">
+                <nav class="top_1_nav">
+                    <a href="#" class="top_1_nav_xz">首页</a>
+                    <a href="woyao_zhuangxiu.html">我要装修</a>
+                    <a href="xiaoqu_anli.html">案例</a>
+                    <a href="zhuangxgs_liebiao.html">找装修公司</a>
+                    <a href="shifu_liebiao.html">找施工师傅</a>
+                    <a href="shejishi_liebiao.html">找设计师</a>
+                    <a href="zhaowojia.html">找我家</a>
+                    <a href="zixun_liebiao.html">装修必知</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index_top2 m-20 p0">
+        <div class="container">
+            <div class="col-md-7 col-sm-7 col-xs-7 p0">
+                <img src="images/top_3_guangg.png" class="top2_gg" />
+            </div>
+            <div class="col-sm-5 col-sm-5 col-xs-5 p0">
+                <div class="right text1" style="height:35px;">
+                    <img src="images/suosou.png" class="left" style="margin-right:0px;width: 9%;height:31px;width:35px;" />
+                    <input type="text" class="input1" placeholder="请输入品牌或商品名称进行搜索" />
+                    <input type="button" class="input2" value="搜 索" />
+                </div>
+            </div>
+        </div>
+    </div>
+   <div class="container-fluid p0 m-20">
+       <div class="container">
+           <p class="text-center gaodashang">
+               家在中国装修网郑重提示：我们旨在提供一个免费、诚信的互联网平台为广大业主和装修公司服务，所以任何公司都可免费注册并获得展示。该列表中带有红色印章标识的公司都为有缴纳保证金，通过考察审核，诚信经营有售后保障的公司，同时接受我们的监督。其他公司则是自己注册，我们不对其负责，请谨慎选择。您也可以<a href="" class="lan_a">免费发布装修招标</a>，由我们推荐3家优秀公司参与竞标。
+           </p>
+       </div>
+   </div>
+    <div class="container-fluid p0 m-20">
+        <div class="container shifu_lb_index">
+            <div class="some_biaoti">
+                <p>口碑装修公司</p>
+                <img src="images/wo_shi_xian.png" />
+            </div>
+            <div class="gs_index">
+              
+                <div class="gs_lb_dan">
+                    <div class="col-sm-3 col-xs-3 col-md-3">
+                        <a href="gs_xq.html">
+                            <img src="images/index_koubei_1.png" />
+                        </a>
+                    </div>
+                    <div class="col-sm-9 col-xs-9 col-md-9">
+                        <a href="gs_xq.html">我是广告语我是广告语我是广告语我是广告语我是广告语</a>
+                        <p><span>公司名字：无锡城中诚装饰装潢有限公司 </span> <span>口碑值:<b>51</b></span><span>预约:<b>51</b></span><span>案例:<b>51</b></span><b style="color:#DE3A2B">保证金：600</b></p>
+                        <p><span>联系电话:18921161997</span><span>地址：无锡市新区旺庄路金源大厦B座321-322室</span></p>
+                        <p><span>优惠多多详情请电话咨询</span></p>
+                    </div>
+                    <img src="images/red.jpg" />
+                </div>
+                <div class="gs_lb_dan">
+                    <div class="col-sm-3 col-xs-3 col-md-3">
+                        <a href="gs_xq.html">
+                            <img src="images/index_koubei_1.png" />
+                        </a>
+                    </div>
+                    <div class="col-sm-9 col-xs-9 col-md-9">
+                        <a href="gs_xq.html">我是广告语我是广告语我是广告语我是广告语我是广告语</a>
+                        <p><span>公司名字：无锡城中诚装饰装潢有限公司 </span> <span>口碑值:<b>51</b></span><span>预约:<b>51</b></span><span>案例:<b>51</b></span><b style="color:#DE3A2B">保证金：600</b></p>
+                        <p><span>联系电话:18921161997</span><span>地址：无锡市新区旺庄路金源大厦B座321-322室</span></p>
+                        <p><span>优惠多多详情请电话咨询</span></p>
+                    </div>
+                    <img src="images/hei.jpg" />
+                </div>
+
+                <div class="gs_lb_dan">
+                    <div class="col-sm-3 col-xs-3 col-md-3">
+                        <a href="gs_xq.html">
+                            <img src="images/index_koubei_1.png" />
+                        </a>
+                    </div>
+                    <div class="col-sm-9 col-xs-9 col-md-9">
+                        <a href="gs_xq.html">我是广告语我是广告语我是广告语我是广告语我是广告语</a>
+                        <p><span>公司名字：无锡城中诚装饰装潢有限公司 </span> <span>口碑值:<b>51</b></span><span>预约:<b>51</b></span><span>案例:<b>51</b></span><b style="color:#DE3A2B">保证金：600</b></p>
+                        <p><span>联系电话:18921161997</span><span>地址：无锡市新区旺庄路金源大厦B座321-322室</span></p>
+                        <p><span>优惠多多详情请电话咨询</span></p>
+                    </div>
+                </div>
+
+                <div class="gs_lb_dan">
+                    <div class="col-sm-3 col-xs-3 col-md-3">
+                        <a href="gs_xq.html">
+                            <img src="images/index_koubei_1.png" />
+                        </a>
+                    </div>
+                    <div class="col-sm-9 col-xs-9 col-md-9">
+                        <a href="gs_xq.html">我是广告语我是广告语我是广告语我是广告语我是广告语</a>
+                        <p><span>公司名字：无锡城中诚装饰装潢有限公司 </span> <span>口碑值:<b>51</b></span><span>预约:<b>51</b></span><span>案例:<b>51</b></span><b style="color:#DE3A2B">保证金：600</b></p>
+                        <p><span>联系电话:18921161997</span><span>地址：无锡市新区旺庄路金源大厦B座321-322室</span></p>
+                        <p><span>优惠多多详情请电话咨询</span></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid index_button">
+        <div class="container">
+            <p><a href="#">关于我们</a> | <a href="#">加入我们</a> | <a href="#">加入我们</a> 隐私政策</p>
+            <p>地址:福州大床长4侧面和 总计:0591-98412361 QQ:987532195</p>
+            <p>266-3015 dsakasd.con AOO RIGhtS REASD 闽ICP备120052161号-2</p>
+
+        </div>
+    </div>
+
+</body>
+</html>
